@@ -40,6 +40,27 @@
     background-size: cover;
 }
 
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) { 
+    .portfolio-img {
+        height: 300px;
+        margin-bottom: 20px;
+        min-width: 360px;
+    }
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+    .portfolio-img {
+        height: 300px;
+        margin-bottom: 20px;
+        min-width: 360px;
+    }
+}
+
 .hover-style1 > .portfolio-img::before {
     background: rgba(255, 255, 255, 0.8);
     bottom: 0px;

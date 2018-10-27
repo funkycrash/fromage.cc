@@ -73,19 +73,17 @@ class Fromage extends Component {
           <div className='container'>
             <div className='row'>
               <div className='col-md-12'>
-                <div className='portfolio-img'>
-                  <img src={fromageImage.fields.file.url} alt={fromage.fields.nom} />
-                </div>
+                <div className='portfolio-img' style={{ backgroundImage: 'url(' + (fromageImage.fields.file.url ? fromageImage.fields.file.url : '/img/no-image.jpg') + ')' }} />
               </div>
             </div>
             <div className='row'>
-              <CalendarTiles debut={fromage.fields.debut} fin={fromage.fields.fin} />
+              {/* <CalendarTiles debut={fromage.fields.debut} fin={fromage.fields.fin} /> */}
               <div className='col-md-8'>
                 <div className='project-desc'>
                   <h3 className='desc'>Description du fromage</h3>
                   <p>{fromage.fields.description}</p>
                 </div>
-                <div className='post-share'>
+                {/* <div className='post-share'>
                   <ul>
                     <li>Partager : </li>
                     <li><a href='#'><i className='fa fa-facebook' /></a></li>
@@ -94,7 +92,7 @@ class Fromage extends Component {
                     <li><a href='#'><i className='fa fa-instagram' /></a></li>
                     <li><a href='#'><i className='fa fa-vimeo-square' /></a></li>
                   </ul>
-                </div>
+                </div> */}
               </div>
               <div className='col-md-4'>
                 <div className='portfolio-meta'>
