@@ -1,0 +1,47 @@
+.service-area.border-top {
+    display: block;
+}
+.single-service {
+    border: 1px solid #e0e0e0;
+    padding: 56px 20px 50px;
+    -webkit-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    background: #f6f6f6;
+}
+
+.single-service h4 {
+    color: #333;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+.single-service p {
+    color: #333;
+    line-height: 26px;
+    padding: 0px 20px;
+    padding-top: 3px;
+}
+.single-service i {
+  border-radius: 50px;
+  color: #000;
+  border: 1px solid #ddd;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  width: 50px;
+}
+.single-service:hover {
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.15);
+    transform: translateY(-10px);
+}
+.single-service:hover i {
+    color: #fff;
+    background-color: #444;
+    transition: 1s;
+}
+.meta-services h3 {
+    margin: 15px 0px;
+}

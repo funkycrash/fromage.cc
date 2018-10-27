@@ -1,0 +1,74 @@
+h2.page-title {
+    color: #464646;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.breadcrumbs > ul {
+    display: inline-block;
+    float: right;
+    margin-top: 12px;
+}
+.breadcrumbs > ul li {
+    color: #464646;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.breadcrumbs ul li a::after {
+    background-color: #464646;
+    content: "";
+    font-size: 8px;
+    height: 15px;
+    margin-left: 11px;
+    position: absolute;
+    right: 7px;
+    top: 5px;
+    transform: rotate(33deg);
+    width: 1.5px;
+}
+.breadcrumbs > ul li a {
+    color: #444444 ;
+    padding-right: 17px;
+    position: relative;
+}
+.breadcrumbs > ul li a.active {
+    font-weight: bold;
+}
+.breadcrumbs > ul li a.active:hover {
+    color: #888;
+}
+/*............. breadcrumbs-2   ................*/
+
+.breadcrumbs-service h2.page-title,
+.breadcrumbs-service .breadcrumbs > ul li a,
+.breadcrumbs-service .breadcrumbs > ul li {
+    color: #fff;
+}
+.breadcrumbs-service .breadcrumbs ul li a::after {
+    background-color: #fff;
+}
+/*............. breadcrumbs-3   ................*/
+
+.breadcrumbs.breadcrumbs-3 > ul {
+    float: inherit;
+    margin-top: 0px;
+}
+.breadcrumbs-3 h2.page-title {
+    display: block;
+}
+.header-brth-4 h2.page-title,
+.header-brth-4 .breadcrumbs > ul li a,
+.header-brth-4 .breadcrumbs > ul li {
+    color: #fff;
+}
+.header-brth-4 .breadcrumbs ul li a::after {
+    background-color: #fff;
+}
+.border-bread-2 {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}

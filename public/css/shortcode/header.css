@@ -1,0 +1,339 @@
+/* -----------------------------------
+
+Template:  Monika - Minimal Portfolio Template
+
+--------------------------------------*/
+
+.header-position {
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+.logo {
+    margin-top: 24px;
+}
+.logo a {
+    color: #333;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.main-menu {} .main-menu ul {} .main-menu ul li {
+    display: inline-block;
+    margin-left: 25px;
+    position: relative;
+}
+.main-menu ul li a {
+  color: #555;
+  display: block;
+  font-family: "Roboto Condensed",sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 30px 0;
+  position: relative;
+  text-transform: uppercase;
+}
+.main-menu ul li:hover > a {
+    color: #000;
+}
+.main-menu ul li ul {
+    background: #fff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 190px;
+    z-index: 999;
+    transform: scale(0.9);
+}
+.main-menu ul li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+.main-menu ul li ul li a {} .main-menu ul li ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #ddd;
+    transition: all .3s ease 0s;
+}
+.main-menu ul li ul li:hover {
+    background: #f6f6f6;
+    padding-left: 10px;
+}
+.main-menu ul li ul li a {
+    display: block;
+    padding: 8px 15px;
+    text-transform: capitalize;
+    color: #000;
+}
+.main-menu ul li ul li:first-child {
+    border-top: none;
+}
+.main-menu ul li ul li:hover > a {
+    padding-left: 15px
+}
+.main-menu ul li ul li a:before {
+    display: none
+}
+.main-menu ul li ul li > ul {
+    left: 100%;
+    margin-top: -1px;
+    opacity: 0;
+    position: absolute;
+    top: 45%;
+    visibility: hidden;
+}
+.main-menu ul li ul li:hover > ul {
+    top: 0;
+}
+.main-menu.text-right span {
+    float: right;
+}
+.mean-container .mean-bar {
+    background: transparent none repeat scroll 0 0;
+    min-height: 0;
+    padding: 0;
+}
+.mean-container a.meanmenu-reveal {
+    border: 1px solid #464646;
+    color: #464646;
+    margin-top: -22px;
+    padding: 4px 5px;
+    position: absolute;
+}
+.mean-container a.meanmenu-reveal span {
+    background-color: #333;
+}
+.mean-container .mean-nav {
+    margin-top: 15px;
+}
+/**
+ * Note: I have omitted any vendor-prefixes for clarity.
+ * Adding them is left as an exercise for the reader.
+ */
+/* stiky */
+
+.header-sticky.sticky {
+    animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+    background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+    box-shadow: 0 1px 3px rgba(50, 50, 50, 0.4);
+}
+/* intelligent-header */
+
+.headroom {
+    will-change: transform;
+    transition: transform 200ms linear;
+}
+.headroom--pinned {
+    transform: translateY(0%);
+}
+.headroom--unpinned {
+    transform: translateY(-100%);
+}
+.intelligent-header {
+    background-color: #fff;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+}
+.header-space {
+    height: 80px;
+}
+.intelligent-header.headroom--pinned {
+    transition: all 0.3s ease 0s;
+}
+.intelligent-header.headroom--not-top {
+    box-shadow: 0 1px 3px rgba(50, 50, 50, 0.4);
+}
+/* Menu Toggle */
+
+.menu-toggle {
+    box-sizing: border-box;
+    float: right;
+    height: 19px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 0;
+}
+.stick .menu-toggle {
+    margin-top: 25px;
+}
+.hamburger-box {
+    height: 19px;
+    width: 30px;
+}
+.hamburger-inner,
+.hamburger-inner::after,
+.hamburger-inner::before {
+    background-color: #000;
+    height: 2px;
+    width: 30px;
+}
+.hamburger-inner::before {
+    top: -8px;
+}
+.hamburger-inner::after {
+    bottom: -8px;
+}
+/* Main Menu */
+
+.main-menu {
+    padding: 0;
+}
+.menu-style-toggle {} .menu-style-toggle nav {
+    opacity: 0;
+    margin-right: -30px;
+    visibility: hidden;
+}
+.menu-style-toggle nav.menu-open {
+    opacity: 1;
+    margin-right: 0;
+    visibility: visible;
+}
+.menu-style-toggle nav {
+    float: left;
+    transition: all 0.3s ease 0s;
+}
+.main-menu.mean-menu.menu-style-toggle.text-right {
+    float: right;
+}
+.waraper .header-sticky.sticky {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.waraper {
+    padding: 0 100px;
+}
+/* Main Menu style 3 */
+
+.main-menu.menu-style-3 {
+    display: inline-block;
+    float: left;
+}
+.sidebar-account {
+    display: inline-block;
+    float: right;
+    padding-top: 28px;
+}
+
+button {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    transition: all 0.3s ease 0s;
+}
+
+.sidebar-account li a {
+    font-size: 16px;
+    color: #333;
+    transition: all .3s ease 0s;
+}
+.sidebar-account li a:hover {
+    color: #888;
+}
+/* Main Menu style 4 */
+
+.header-area-4 {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.header-area-4 .logo a {
+    color: #fff;
+}
+.header-area-4 .main-menu ul li a {
+    color: #fff;
+}
+.header-area-4 .main-menu ul li ul li a {
+    color: #000;
+}
+.header-area-4.sticky .logo a {
+    color: #000;
+}
+.header-area-4.sticky .main-menu ul li a {
+    color: #000;
+}
+.header-area-4.sticky .main-menu ul li ul li a {
+    color: #000;
+}
+/* header 7 */
+
+.header-7 {
+    padding: 0 50px;
+}
+.header-7.header-sticky.sticky {
+    padding: 0 50px;
+}
+/* header 10 */
+
+.header-style-10 .logo {
+    margin-top: 0px;
+    display: inline;
+}
+.header-style-10 .sidebar-account {
+    padding-top: 4px;
+}
+.header-area.header-style-10 {
+    padding: 20px 0;
+}
+.menu-toggle-10 {
+  box-sizing: border-box;
+  left: 54px;
+  padding: 0;
+  position: fixed;
+  top: 25px;
+  transition: all 0.5s ease 0s;
+  z-index: 99999999;
+}
+.main-menu-10 {
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0 1px 3px rgba(50, 50, 50, 0.4);
+  height: 100%;
+  left: -225px;
+  padding-top: 55px;
+  position: fixed;
+  top: 0;
+  width: 225px;
+  z-index: 9999999;
+}
+.main-menu-10 ul li {
+    display: block;
+    position: relative;
+    margin-left: 0px;
+}
+.main-menu-10 ul li a {
+    display: block;
+    padding: 10px 50px;
+    position: relative;
+}
+
+.header-style-10 .main-menu ul li ul {
+  left: 100%;
+  top: 45%;
+}
+.header-style-10 .main-menu ul li ul li ul{
+  height: 100px;
+  overflow-y: auto;
+}
+.header-area-4 .hamburger-inner, .header-area-4 .hamburger-inner::after, .header-area-4 .hamburger-inner::before {
+    background-color: #fff;
+}
+.header-area-4.sticky  .hamburger-inner, .header-area-4.sticky  .hamburger-inner::after, .header-area-4.sticky  .hamburger-inner::before {
+    background-color: #000;
+}

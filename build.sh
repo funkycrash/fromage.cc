@@ -1,0 +1,9 @@
+#!/bin/sh
+#echo building website...
+#yarn build
+echo backup old data...
+mv ./src/Data/fromage.json ./src/Data/fromage.backup
+echo downloading latest data...
+curl --request GET \
+     https://cdn.contentful.com/spaces/jzkzwluhcjif/environments/master/entries?access_token=ece35d8a6310d7c1328c147c5f44fb0287422550c57ccff8408edebaa88b26d5 >> src/Data/fromage.json
+echo done.

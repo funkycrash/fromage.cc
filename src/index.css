@@ -1,0 +1,41 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.img {
+    height: 180px;
+    background-size: cover;
+}
+.calendar {
+    width: 100%;
+    margin:0 auto;
+}
+.calendar > div:first-of-type {
+    margin-left: 0;
+}
+.yes, .no {
+    width: 7.3333%;
+    margin: .5%;
+    display: inline-block;
+    height: 25px;
+    text-align: center;
+    color: #fff;
+    line-height: 25px;
+    text-transform: capitalize;
+
+}
+.yes {
+    background: #009342;
+}
+.no {
+    background: #696969;
+}
+
+.months {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.menu {
+    display: none;
+}
+
