@@ -20,7 +20,7 @@ class Header extends Component {
               <div className='row'>
                 <div className='col-md-3 col-xs-12'>
                   <div className='logo'>
-                    <Link to='/'>Fromage de saison</Link>
+                    <Link to='/'><span className='text-yellow'>Fromage</span> de saison</Link>
                   </div>
                 </div>
                 <div className='col-md-9 col-xs-12'>

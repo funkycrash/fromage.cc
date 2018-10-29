@@ -39,3 +39,11 @@
     display: none;
 }
 
+.text-yellow {
+    color: #f3a500;
+}
+
+.logo-website {
+    height: 200px;
+    margin: 40px auto;
+}

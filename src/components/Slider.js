@@ -156,7 +156,7 @@ class Slider extends Component {
           <div className='slider-img-text'>
             <div className='slider-text monika-slider-text col-md-6 col-xs-12'>
               <div className='row'>
-                <h2 className='text-cap'>Saisonnalité du fromage</h2>
+                <h2 className='text-cap'>Saisonnalité du <span className='text-yellow'>fromage</span></h2>
                 <h3 className='heading-sub-title cd-headline clip'>
                   <span>parce que c'est plus </span>
                   <span className='cd-words-wrapper'>
@@ -170,7 +170,7 @@ class Slider extends Component {
             </div>
             <div className='slider-img col-md-6 hidden-xs'>
               <div className='row'>
-                <img className='img-responsive' src='/img/fromage-resized.png' alt='' />
+                <img className='img-responsive logo-website' src='/img/fromage.svg' alt='' />
               </div>
             </div>
           </div>

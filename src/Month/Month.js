@@ -33,7 +33,7 @@ class Month extends Component {
             colors: {
               ...theme.colors,
               text: 'orangered',
-              primary25: '#ffe57c',
+              primary25: '#f3a500',
               primary: '#666'
             }
           })}
