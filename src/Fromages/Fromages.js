@@ -29,7 +29,6 @@ class Fromages extends Component {
   }
 
   handleSelectMonth (e) {
-    console.log(e.value)
     this.setState({
       currentMonth: e.value
     })
@@ -40,7 +39,7 @@ class Fromages extends Component {
     const currentMonth = currentDate.getMonth()
     const fromages = jsonData.items
     const assets = jsonData.includes.Asset
-    const milk = 'all'
+    const milk = ''
 
     this.setState({
       fromages,
@@ -51,12 +50,16 @@ class Fromages extends Component {
   }
 
   render () {
+    console.log(this.state.fromages)
+    console.log(this.state.assets)
+    console.log(this.state.milk)
     let filteredFromages = null
     const assetsIdsAndPictures = {}
     if (this.state.fromages && this.state.assets) {
       this.state.assets.map(asset => (assetsIdsAndPictures[asset.sys.id] = asset.fields.file.url))
       // Date filter
       filteredFromages = this.state.fromages.filter(fromage => fromage.fields.debut <= this.state.currentMonth && fromage.fields.fin >= this.state.currentMonth)
+
       // Milk filter
       if (this.state.milk !== 'all') {
         filteredFromages = filteredFromages.filter(fromage => fromage.fields.lait === this.state.milk)
