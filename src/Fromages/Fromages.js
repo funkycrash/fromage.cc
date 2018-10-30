@@ -39,7 +39,7 @@ class Fromages extends Component {
     const currentMonth = currentDate.getMonth()
     const fromages = jsonData.items
     const assets = jsonData.includes.Asset
-    const milk = ''
+    const milk = 'all'
 
     this.setState({
       fromages,
