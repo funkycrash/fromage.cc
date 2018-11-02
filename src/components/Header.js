@@ -18,12 +18,12 @@ class Header extends Component {
           <div className='header-area intelligent-header headroom headroom--not-bottom headroom--pinned headroom--top'>
             <div className='container'>
               <div className='row'>
-                <div className='col-md-3 col-xs-12'>
+                <div className='col-md-4 col-xs-12'>
                   <div className='logo'>
                     <Link to='/'><span className='text-yellow'>Fromage</span> de saison</Link>
                   </div>
                 </div>
-                <div className='col-md-9 col-xs-12'>
+                <div className='col-md-8 col-xs-12'>
                   <div className='main-menu text-right'>
                     <nav>
                       <ul className='menu d-none'>

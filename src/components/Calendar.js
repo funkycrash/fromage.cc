@@ -42,7 +42,7 @@ class CalendarTiles extends Component {
     })
 
     return (
-      <div className='row ptb-20 calendar'>
+      <div className='row pb-40 calendar hidden-md-down'>
         {calendarHTML}
       </div>
     )

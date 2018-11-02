@@ -76,8 +76,8 @@ class Fromage extends Component {
                 <div className='portfolio-img' style={{ backgroundImage: 'url(' + (fromageImage.fields.file.url ? fromageImage.fields.file.url : '/img/no-image.jpg') + ')' }} />
               </div>
             </div>
-            <div className='row'>
-              {/* <CalendarTiles debut={fromage.fields.debut} fin={fromage.fields.fin} /> */}
+            <div className='row pt-40'>
+              <CalendarTiles debut={fromage.fields.debut} fin={fromage.fields.fin} />
               <div className='col-md-8'>
                 <div className='project-desc'>
                   <h3 className='desc'>Description du fromage</h3>

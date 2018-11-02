@@ -24,7 +24,7 @@
 
 }
 .yes {
-    background: #009342;
+    background: #f3a500;
 }
 .no {
     background: #696969;
@@ -47,3 +47,5 @@
     height: 200px;
     margin: 40px auto;
 }
+
+@media (max-width:991px){.hidden-md-down{display:none!important}}

@@ -9,11 +9,13 @@ const urlify = require('urlify').create({spaces: '-', nonPrintable: '-'})
 class Fromages extends Component {
   constructor (props) {
     super(props)
+    const currentDate = new Date()
 
     this.state = {
-      fromages: null,
-      currentMonth: null,
-      assets: null,
+      fromages: jsonData.items,
+      filteredFromages: jsonData.items,
+      currentMonth: currentDate.getMonth() + 1,
+      assets: jsonData.includes.Asset,
       milk: 'all'
     }
     this.milkFromageFilter = this.milkFromageFilter.bind(this)
@@ -21,9 +23,17 @@ class Fromages extends Component {
   }
 
   milkFromageFilter (e) {
-    e.preventDefault()
     let milkType = e.currentTarget.getAttribute('data-filter')
+    let fromages = this.state.fromages
+    let filteredFromages = this.state.fromages
+
+    if (milkType === 'all') {
+      filteredFromages = fromages
+    } else {
+      filteredFromages = fromages.filter(fromage => fromage.fields.lait.indexOf(milkType) >= 0)
+    }
     this.setState({
+      filteredFromages: filteredFromages,
       milk: milkType
     })
   }
@@ -34,37 +44,38 @@ class Fromages extends Component {
     })
   }
 
-  async componentDidMount () {
-    const currentDate = new Date()
-    const currentMonth = currentDate.getMonth()
-    const fromages = jsonData.items
-    const assets = jsonData.includes.Asset
-    const milk = 'all'
-
-    this.setState({
-      fromages,
-      currentMonth,
-      assets,
-      milk
-    })
-  }
-
   render () {
-    console.log(this.state.fromages)
-    console.log(this.state.assets)
-    console.log(this.state.milk)
-    let filteredFromages = null
-    const assetsIdsAndPictures = {}
-    if (this.state.fromages && this.state.assets) {
-      this.state.assets.map(asset => (assetsIdsAndPictures[asset.sys.id] = asset.fields.file.url))
-      // Date filter
-      filteredFromages = this.state.fromages.filter(fromage => fromage.fields.debut <= this.state.currentMonth && fromage.fields.fin >= this.state.currentMonth)
+    let fromages = this.state.filteredFromages
+    let assets = this.state.assets
+    let currentMonth = this.state.currentMonth
 
-      // Milk filter
-      if (this.state.milk !== 'all') {
-        filteredFromages = filteredFromages.filter(fromage => fromage.fields.lait === this.state.milk)
-      }
+    const assetsIdsAndPictures = {}
+    if (fromages.length > 0 && assets.length > 0) {
+      assets.map(asset => (assetsIdsAndPictures[asset.sys.id] = asset.fields.file.url))
+      // Date filter
+      fromages = fromages.filter(fromage => fromage.fields.debut <= currentMonth && fromage.fields.fin >= currentMonth)
     }
+
+    const fromagesHtml = fromages.map(fromage => (
+      <div key={urlify(fromage.fields.nom)} className={`col-md-4 col-sm-6 col-xs-12 grid-item ${fromage.fields.lait} mb-30`}>
+        <Link to={`/fromage/${urlify(fromage.fields.nom).toLowerCase()}`}>
+          <div className='portfolio hover-style1'>
+            <div className='portfolio-img' style={{ backgroundImage: 'url(' + (fromage.fields.photo ? assetsIdsAndPictures[fromage.fields.photo.sys.id] : '/img/no-image.jpg') + ')' }} >
+              <div className='portfolio-view'>
+                <span className='img-popup' href='/img/portfolio/equal/1.jpg'>
+                  <i className='icon-focus' />
+                </span>
+              </div>
+            </div>
+            <div className='portfolio-title-2 text-center title-color-2'>
+              <h3>{fromage.fields.nom}</h3>
+              <span className={`flag-icon flag-icon-${countryCodeArray[fromage.fields.pays.toLowerCase()]}`} />
+            </div>
+          </div>
+        </Link>
+      </div>
+    ))
+
     return (
       <div className='portfolio-area'>
         <Month selectOnChange={this.handleSelectMonth} />
@@ -72,28 +83,7 @@ class Fromages extends Component {
           <Filter milkFromageFilter={this.milkFromageFilter} />
           <div className='row portfolio-style-2'>
             <div className='grid'>
-              {filteredFromages === null && assetsIdsAndPictures === null && <p>Chargement des fromages...</p>}
-              {
-                filteredFromages && filteredFromages.map(fromage => (
-                  <div key={urlify(fromage.fields.nom)} className={`col-md-4 col-sm-6 col-xs-12 grid-item ${fromage.fields.lait} mb-30`}>
-                    <Link to={`/fromage/${urlify(fromage.fields.nom).toLowerCase()}`}>
-                      <div className='portfolio hover-style1'>
-                        <div className='portfolio-img' style={{ backgroundImage: 'url(' + (fromage.fields.photo ? assetsIdsAndPictures[fromage.fields.photo.sys.id] : '/img/no-image.jpg') + ')' }} >
-                          <div className='portfolio-view'>
-                            <span className='img-popup' href='/img/portfolio/equal/1.jpg'>
-                              <i className='icon-focus' />
-                            </span>
-                          </div>
-                        </div>
-                        <div className='portfolio-title-2 text-center title-color-2'>
-                          <h3>{fromage.fields.nom}</h3>
-                          <span className={`flag-icon flag-icon-${countryCodeArray[fromage.fields.pays.toLowerCase()]}`} />
-                        </div>
-                      </div>
-                    </Link>
-                  </div>
-                ))
-              }
+              {fromagesHtml}
             </div>
           </div>
         </div>

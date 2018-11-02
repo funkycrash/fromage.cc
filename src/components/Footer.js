@@ -19,7 +19,7 @@ class Footer extends Component {
                     </ul>
                   </nav>
                 </div>
-                <p> © <a href='https://www.nicolasfunke.com'>Nicolas F</a>. All Rights Reserved.</p>
+                <p> © <a href='https://www.nicolasfunke.com' target="_blank">Nicolas F</a>. All Rights Reserved.</p>
               </div>
             </div>
           </div>

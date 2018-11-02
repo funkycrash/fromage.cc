@@ -156,6 +156,7 @@ Template:  Monika - Minimal Portfolio Template
 }
 .intelligent-header.headroom--pinned {
     transition: all 0.3s ease 0s;
+    padding-bottom: 25px;
 }
 .intelligent-header.headroom--not-top {
     box-shadow: 0 1px 3px rgba(50, 50, 50, 0.4);
