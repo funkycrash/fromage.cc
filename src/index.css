@@ -44,7 +44,7 @@
 }
 
 .logo-website {
-    height: 200px;
+    height: 150px;
     margin: 40px auto;
 }
 
@@ -55,7 +55,7 @@
     margin-bottom: 20px;
 }
 
-@media (max-width:991px){
+@media (max-width:991px) {
     .hidden-md-down {
         display:none!important
     }
