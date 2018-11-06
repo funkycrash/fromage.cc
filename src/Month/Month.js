@@ -21,7 +21,7 @@ class Month extends Component {
     ]
 
     return (
-      <div className='row ptb-90 text-center months'>
+      <div className='row ptb-90 months'>
         <Select
           defaultValue={options[currentMonth - 1]}
           options={options}
