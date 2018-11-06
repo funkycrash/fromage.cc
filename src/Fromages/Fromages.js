@@ -40,7 +40,7 @@ class Fromages extends Component {
     if (fromages.length > 0 && assets.length > 0) {
       assets.map(asset => (assetsIdsAndPictures[asset.sys.id] = asset.fields.file.url))
       // Date filter
-      // fromages = fromages.filter(fromage => fromage.fields.debut <= currentMonth && fromage.fields.fin >= currentMonth)
+      fromages = fromages.filter(fromage => fromage.fields.debut <= currentMonth && fromage.fields.fin >= currentMonth)
     }
 
     const fromagesHtml = fromages.map(fromage => (
