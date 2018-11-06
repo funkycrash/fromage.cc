@@ -19,7 +19,8 @@ class Footer extends Component {
                     </ul>
                   </nav>
                 </div>
-                <p> © <a href='//www.nicolasfunke.com' target='_blank'>Nicolas F</a>. Built with <a href='//reactjs.org'>React</a>.</p>
+                <p>Developpé par <a href='//www.nicolasfunke.com' target='_blank'>Nicolas F</a> avec <a href='//reactjs.org'>React</a>.<br />
+                Publié sous la <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.fr' target='_blank'>licence Creative Commons</a></p>
               </div>
             </div>
           </div>
