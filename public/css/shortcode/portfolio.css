@@ -45,6 +45,12 @@
     min-height: 480px;
 }
 
+@media (max-width:991px) {
+    .portfolio-details .portfolio-img {
+        min-height: 280px;
+    }
+}
+
 .hover-style1 > .portfolio-img::before {
     background: rgba(255, 255, 255, 0.8);
     bottom: 0px;
