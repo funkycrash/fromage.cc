@@ -32,7 +32,7 @@
     position: relative;
 }
 .portfolio-img {
-    min-width: 360px;
+    min-width: 350px;
     min-height: 180px;    
     overflow: hidden;
     text-align: center;

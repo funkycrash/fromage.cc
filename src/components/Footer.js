@@ -19,7 +19,7 @@ class Footer extends Component {
                     </ul>
                   </nav>
                 </div>
-                <p> © <a href='https://www.nicolasfunke.com' target="_blank">Nicolas F</a>. All Rights Reserved.</p>
+                <p> © <a href='//www.nicolasfunke.com' target='_blank'>Nicolas F</a>. Built with <a href='//reactjs.org'>React</a>.</p>
               </div>
             </div>
           </div>

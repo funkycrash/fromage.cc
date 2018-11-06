@@ -3,8 +3,7 @@ import Select from 'react-select'
 
 class Month extends Component {
   render () {
-    const currentDate = new Date()
-    const currentMonth = currentDate.getMonth()
+    const currentMonth = this.props.selectedMonth
 
     const options = [
       { value: 1, label: 'Janvier' },
@@ -24,7 +23,7 @@ class Month extends Component {
     return (
       <div className='row ptb-90 text-center months'>
         <Select
-          defaultValue={options[currentMonth]}
+          defaultValue={options[currentMonth - 1]}
           options={options}
           onChange={this.props.selectOnChange}
           theme={(theme) => ({
