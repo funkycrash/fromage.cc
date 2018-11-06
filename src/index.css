@@ -55,4 +55,12 @@
     margin-bottom: 20px;
 }
 
-@media (max-width:991px){.hidden-md-down{display:none!important}}
+@media (max-width:991px){
+    .hidden-md-down {
+        display:none!important
+    }
+    .grid-item {
+        width: 92%;
+        margin: 4%;
+    }
+}
