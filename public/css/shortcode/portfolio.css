@@ -43,6 +43,7 @@
 
 .portfolio-details .portfolio-img {
     min-height: 480px;
+    border-radius: 2px;
 }
 
 @media (max-width:991px) {

@@ -26,6 +26,21 @@ class Fromages extends Component {
     }
   }
 
+  shuffle (array) {
+    var currentIndex = array.length, temporaryValue, randomIndex;
+    // While there remain elements to shuffle...
+    while (currentIndex !== 0) {
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex)
+      currentIndex -= 1
+      // And swap it with the current element.
+      temporaryValue = array[currentIndex]
+      array[currentIndex] = array[randomIndex]
+      array[randomIndex] = temporaryValue
+    }
+    return array
+  }
+
   render () {
     let fromages = this.state.filteredFromages
     let assets = this.state.assets
@@ -40,7 +55,7 @@ class Fromages extends Component {
     if (fromages.length > 0 && assets.length > 0) {
       assets.map(asset => (assetsIdsAndPictures[asset.sys.id] = asset.fields.file.url))
       // Date filter
-      fromages = fromages.filter(fromage => fromage.fields.debut <= currentMonth && fromage.fields.fin >= currentMonth)
+      fromages = this.shuffle(fromages.filter(fromage => fromage.fields.debut <= currentMonth && fromage.fields.fin >= currentMonth))
     }
 
     const fromagesHtml = fromages.map(fromage => (

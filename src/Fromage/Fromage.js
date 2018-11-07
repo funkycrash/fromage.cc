@@ -52,7 +52,7 @@ class Fromage extends Component {
     if (!fromage) return <p>Loading ...</p>
     return (
       <div>
-        <section className='breadcrumbs-area ptb-100 port bread-card pattern-bread gray-bg border-bread'>
+        <section className='breadcrumbs-area ptb-70 port bread-card pattern-bread gray-bg border-bread'>
           <div className='container'>
             <div className='row'>
               <div className='col-md-12 text-center'>
