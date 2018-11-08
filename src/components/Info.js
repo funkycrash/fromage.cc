@@ -22,7 +22,7 @@ class Info extends Component {
           <div className='row'>
             <div className='col-md-12 '>
               <h3 className='pt-40'>Saisonnalité</h3>
-              <p>Les fromages, fierté française, sont aussi des produits de saison, qui ne sont pas produits ou n'ont pas le même goût toute l'année.             
+              <p>Les fromages, sont aussi des produits de saison, qui ne sont pas produits ou n'ont pas le même goût toute l'année.             
                 Il est ainsi des fromages dont la saisonnalité est tout simplement imposée
                   par les <strong>textes de loi</strong>, c’est le cas par exemple du Salers: 
                   le Salers doit obligatoirement être fabriqué entre le 15 avril et le 15 novembre, avec du lait de vache « mises à l’herbe » dans les prés.
