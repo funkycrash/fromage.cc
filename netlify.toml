@@ -1,0 +1,29 @@
+# No build step: Netlify serves site/ as it is. The command is here so a
+# build command left in Netlify's settings doesn't run instead.
+[build]
+  publish = "site"
+  command = "echo 'Pas de build'"
+
+# The old domain's visitors: send them to the same page here.
+[[redirects]]
+  from = "https://fromage.cc/*"
+  to = "https://fromage.nicolasfunke.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.fromage.cc/*"
+  to = "https://fromage.nicolasfunke.com/:splat"
+  status = 301
+  force = true
+
+# Every other path is the app; it reads the URL itself.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/photos/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"

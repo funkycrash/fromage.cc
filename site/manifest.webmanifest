@@ -1,0 +1,13 @@
+{
+  "name": "Fromage de saison",
+  "short_name": "Fromages",
+  "lang": "fr",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF",
+  "icons": [
+    { "src": "/icons/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/android-chrome-256x256.png", "sizes": "256x256", "type": "image/png" }
+  ]
+}

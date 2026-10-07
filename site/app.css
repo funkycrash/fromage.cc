@@ -1,0 +1,237 @@
+/* Fromage de saison, in the style of Funky Fork's web app
+   (meals.nicolasfunke.com/app): its Paprika palette, large titles,
+   rounded photo cards, pills and a bottom tab bar. */
+
+:root {
+  --primary: #C4412A;
+  --primary-dark: #9C321F;
+  --primary-light: #FBE4DC;
+  --accent: #F2B63D;
+  --ink: #221D19;
+  --ink-soft: #453D37;
+  --secondary: #6C625A;
+  --muted: #9C9189;
+  --faint: #B7ADA4;
+  --line: #E5DDD5;
+  --pill: #F1ECE7;
+  --warm: #FAF7F4;
+  --tab-inactive: #7A7069;
+  --hairline: 0.5px;
+  --top: env(safe-area-inset-top, 0px);
+  --bottom: env(safe-area-inset-bottom, 0px);
+  --tabbar: 64px;
+  --gutter: max(16px, calc((100vw - 1080px) / 2));
+  --reading: max(16px, calc((100vw - 720px) / 2));
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
+  background: #fff;
+  color: var(--ink);
+  font-family: -apple-system, system-ui, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+  font-size: 17px;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root { position: fixed; inset: 0; overflow: hidden; }
+
+button {
+  appearance: none; background: none; border: 0; margin: 0; padding: 0;
+  font: inherit; color: inherit; text-align: inherit; cursor: pointer; touch-action: manipulation;
+}
+a { color: inherit; text-decoration: none; }
+input { font: inherit; color: inherit; }
+h1, h2, h3, p { margin: 0; font-weight: inherit; font-size: inherit; }
+:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+
+.spacer { flex: 1; }
+.scroll { overflow-y: auto; overflow-x: hidden; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }
+.hscroll { display: flex; overflow-x: auto; scrollbar-width: none; overscroll-behavior-x: contain; }
+.hscroll::-webkit-scrollbar { display: none; }
+.icon { display: inline-flex; flex: none; }
+
+/* MARK: Tabs */
+
+.tabs { position: absolute; inset: 0; transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1); }
+.tabs.covered { transform: translateX(-30%); }
+.tab-page { position: absolute; inset: 0; }
+.tab-screen, .pushed { position: absolute; inset: 0; display: flex; flex-direction: column; background: #fff; }
+.tab-screen > .scroll, .pushed > .scroll { flex: 1; position: relative; }
+.tab-screen > .scroll { padding-bottom: calc(var(--tabbar) + var(--bottom) + 24px); }
+
+.tab-bar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 5;
+  display: flex; height: calc(var(--tabbar) + var(--bottom)); padding-bottom: var(--bottom);
+  background: rgba(255, 255, 255, 0.94); -webkit-backdrop-filter: blur(20px); backdrop-filter: blur(20px);
+  box-shadow: 0 calc(-1 * var(--hairline)) 0 var(--faint);
+}
+.tab-bar.hidden { display: none; }
+.tab-bar a { flex: 1; position: relative; height: var(--tabbar); color: var(--tab-inactive); }
+.tab-bar a.active { color: var(--primary); }
+.tab-icon { position: absolute; left: 50%; top: 22px; transform: translate(-50%, -50%); display: flex; }
+.tab-label { position: absolute; left: 50%; top: 44.2px; transform: translate(-50%, -50%); font-size: 12px; font-weight: 500; white-space: nowrap; }
+
+/* On a wide screen the tab bar floats, like a glass pill. */
+@media (min-width: 720px) {
+  .tab-bar {
+    left: 50%; right: auto; bottom: calc(var(--bottom) + 16px); transform: translateX(-50%);
+    width: 360px; height: var(--tabbar); padding: 0; border-radius: 32px;
+    border: 0.6px solid rgba(0, 0, 0, 0.12); box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12);
+  }
+  .tab-screen > .scroll { padding-bottom: calc(var(--tabbar) + var(--bottom) + 48px); }
+}
+
+/* MARK: Headers */
+
+.header { position: relative; flex: none; background: #fff; padding-top: calc(var(--top) + 8px); z-index: 1; }
+.header::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: var(--hairline); background: var(--faint); transition: opacity 0.2s; }
+.header.untitled::after { opacity: 0; }
+.header-title {
+  position: absolute; left: 96px; right: 96px; bottom: 0; height: 44px; line-height: 44px; text-align: center;
+  font-size: 17px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; transition: opacity 0.2s;
+}
+.header.untitled .header-title { opacity: 0; }
+.header-row { position: relative; display: flex; align-items: center; height: 44px; padding: 0 var(--gutter); }
+.header-back { display: flex; align-items: center; gap: 2px; height: 44px; color: var(--primary); font-size: 17px; margin-left: -4px; }
+
+.large-title { font-size: 34px; font-weight: 700; line-height: 41px; padding: 3.4px var(--gutter) 0; letter-spacing: 0.1px; }
+.subtitle { padding: 4px var(--gutter) 0; font-size: 17px; font-weight: 500; color: var(--muted); }
+
+/* MARK: Pushed screen */
+
+.layer { position: fixed; inset: 0; z-index: 10; pointer-events: none; }
+.layer > * { pointer-events: auto; }
+.layer .screen {
+  position: absolute; inset: 0; background: #fff; will-change: transform;
+  transform: translateX(100%); transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+  box-shadow: -2px 0 12px rgba(0, 0, 0, 0.08);
+}
+.layer.shown .screen { transform: none; }
+.layer.instant .screen { transition: none; }
+.layer.swiped .screen { transition: transform 0.25s ease-out; }
+
+/* MARK: Pieces */
+
+.photo { position: relative; overflow: hidden; background: var(--line); }
+.photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 0.2s; }
+.photo img.loaded { opacity: 1; }
+
+.chips { gap: 8px; padding: 0 var(--gutter); }
+.chip {
+  flex: none; height: 36px; padding: 0 16px; border-radius: 18px; background: var(--pill); color: var(--ink-soft);
+  font-size: 16px; font-weight: 500; white-space: nowrap; display: flex; align-items: center; gap: 6px;
+}
+.chip.on { background: var(--primary); color: #fff; }
+.chip .now { width: 6px; height: 6px; border-radius: 50%; background: var(--primary); }
+.chip.on .now { background: #fff; }
+.chip-label { padding: 24px var(--gutter) 9px; font-size: 14px; line-height: 17px; font-weight: 600; color: #999; text-transform: uppercase; }
+
+.field {
+  width: 100%; height: 43.7px; border: 0; outline: 0; border-radius: 10px; background: var(--pill);
+  font-size: 17px; padding: 0 14px 0 38px; -webkit-appearance: none; appearance: none;
+}
+.field::placeholder { color: rgba(60, 60, 67, 0.4); }
+.field::-webkit-search-cancel-button { display: none; }
+.search-field-wrap { position: relative; padding: 16px var(--gutter) 4px; }
+.search-field-wrap .icon { position: absolute; left: calc(var(--gutter) + 12px); top: 28px; color: var(--muted); pointer-events: none; }
+
+.empty { display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 64px 32px; text-align: center; }
+.empty-title { font-size: 22px; font-weight: 700; }
+.empty-detail { color: var(--secondary); font-size: 15px; line-height: 20px; }
+.empty .chip { margin-top: 12px; }
+
+.center-spinner { display: flex; justify-content: center; padding-top: 120px; }
+.spinner { width: 22px; height: 22px; border-radius: 50%; border: 2.5px solid rgba(0, 0, 0, 0.12); border-top-color: var(--secondary); animation: spin 0.8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* MARK: De saison */
+
+.fromage-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); column-gap: 16px; row-gap: 28px;
+  padding: 20px var(--gutter) 0; align-items: start;
+}
+@media (min-width: 720px) { .fromage-grid { grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); column-gap: 24px; } }
+.card { display: flex; flex-direction: column; min-width: 0; }
+.card-photo { position: relative; display: block; width: 100%; aspect-ratio: 1; border-radius: 17px; overflow: hidden; }
+.card-photo .photo { width: 100%; height: 100%; }
+.card-badge {
+  position: absolute; left: 10px; bottom: 9px; height: 22.3px; display: flex; align-items: center;
+  padding: 0 8px; border-radius: 12px; background: #fff; color: var(--primary); font-size: 12px; font-weight: 600;
+}
+.card-name { padding-top: 7.5px; font-size: 15px; font-weight: 500; line-height: 18px; }
+.card-name::first-letter, .row-name::first-letter, .fromage-title::first-letter { text-transform: uppercase; }
+.card-meta { margin-top: 2px; font-size: 13px; color: var(--muted); }
+
+/* MARK: Tous */
+
+.count { padding: 11px var(--gutter) 0; font-size: 15px; color: var(--secondary); }
+.letter { padding: 22px var(--gutter) 4px; font-size: 14px; font-weight: 600; color: #999; }
+.row { position: relative; display: flex; align-items: center; gap: 14px; padding: 10px var(--gutter); }
+.row::after { content: ""; position: absolute; left: calc(var(--gutter) + 78px); right: 0; bottom: 0; height: var(--hairline); background: rgba(60, 60, 67, 0.29); }
+.row:last-child::after { display: none; }
+.row-photo { width: 64px; height: 64px; border-radius: 10px; flex: none; }
+.row-text { display: flex; flex-direction: column; gap: 3px; min-width: 0; flex: 1; }
+.row-name { font-size: 17px; line-height: 22px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.row-meta { font-size: 15px; color: var(--secondary); }
+.row-meta.in { color: var(--primary); }
+.row .icon { color: var(--faint); }
+
+/* MARK: Fromage */
+
+.pushed > .scroll { padding-bottom: calc(40px + var(--bottom)); }
+.hero { width: 100%; aspect-ratio: 4 / 3; max-height: 60vh; }
+@media (min-width: 720px) {
+  .hero { width: auto; margin: 16px var(--reading) 0; border-radius: 17px; aspect-ratio: 16 / 10; }
+}
+.reading { padding: 0 var(--reading); }
+.fromage-title { padding-top: 18px; font-size: 30px; font-weight: 700; line-height: 36px; }
+.fromage-title .dot { color: var(--primary); }
+.tags { gap: 8px; margin-top: 14px; }
+.tag { height: 28px; padding: 0 12px; border-radius: 14px; background: var(--pill); color: var(--ink-soft); font-size: 14px; font-weight: 500; display: flex; align-items: center; }
+.tag.accent { background: var(--accent); color: var(--ink); }
+.tag.season { background: var(--primary-light); color: var(--primary-dark); }
+
+.section-title { margin-top: 30px; font-size: 22px; font-weight: 700; line-height: 28px; }
+.season-text { margin-top: 4px; font-size: 16px; color: var(--secondary); }
+.months { display: grid; grid-template-columns: repeat(12, 1fr); gap: 4px; margin-top: 14px; }
+.month { display: flex; flex-direction: column; align-items: center; gap: 6px; font-size: 12px; font-weight: 500; color: var(--muted); }
+.month i { display: block; width: 100%; height: 8px; border-radius: 4px; background: var(--pill); }
+.month.in { color: var(--ink-soft); }
+.month.in i { background: var(--primary); }
+.month.now { color: var(--primary); font-weight: 700; }
+
+.description { margin-top: 10px; font-size: 17px; line-height: 26px; color: var(--ink-soft); }
+.description p + p { margin-top: 14px; }
+
+.facts { margin-top: 10px; }
+.fact { position: relative; display: flex; justify-content: space-between; gap: 16px; padding: 15px 0; font-size: 17px; }
+.fact::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: var(--hairline); background: var(--line); }
+.fact:last-child::after { display: none; }
+.fact span:first-child { color: var(--secondary); }
+.fact span:last-child { text-align: right; }
+
+.primary-button {
+  display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 28px; height: 48px; border-radius: 12px;
+  background: var(--primary); color: #fff; font-size: 17px; font-weight: 500; box-shadow: 0 4px 10px rgba(196, 65, 42, 0.3);
+}
+
+/* MARK: Pourquoi */
+
+.article { padding: 8px var(--reading) 0; }
+.article .lead { margin-top: 12px; font-size: 20px; line-height: 28px; font-weight: 500; }
+.article h2 { margin-top: 30px; font-size: 22px; font-weight: 700; line-height: 28px; }
+.article p { margin-top: 10px; font-size: 17px; line-height: 26px; color: var(--ink-soft); }
+.note-card { margin-top: 24px; padding: 14px 16px; border-radius: 12px; background: rgba(242, 182, 61, 0.35); font-size: 16px; line-height: 23px; }
+.note-card strong { display: block; font-size: 15px; margin-bottom: 4px; }
+.footer { margin-top: 40px; padding-top: 16px; border-top: var(--hairline) solid var(--line); font-size: 14px; line-height: 21px; color: var(--muted); }
+.footer a { color: var(--primary); }
+.flow { display: flex; flex-wrap: wrap; align-items: center; }
+.pushed .header-row { padding: 0 var(--reading); }
