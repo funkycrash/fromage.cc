@@ -211,6 +211,10 @@ h1, h2, h3, p { margin: 0; font-weight: inherit; font-size: inherit; }
 .description { margin-top: 10px; font-size: 17px; line-height: 26px; color: var(--ink-soft); }
 .description p + p { margin-top: 14px; }
 
+.anecdotes { margin: 12px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.anecdotes li { position: relative; padding: 12px 14px 12px 30px; border-radius: 12px; background: var(--primary-light); font-size: 16px; line-height: 23px; color: var(--ink-soft); }
+.anecdotes li::before { content: ""; position: absolute; left: 14px; top: 21px; width: 6px; height: 6px; border-radius: 50%; background: var(--primary); }
+
 .facts { margin-top: 10px; }
 .fact { position: relative; display: flex; justify-content: space-between; gap: 16px; padding: 15px 0; font-size: 17px; }
 .fact::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: var(--hairline); background: var(--line); }
@@ -235,3 +239,6 @@ h1, h2, h3, p { margin: 0; font-weight: inherit; font-size: inherit; }
 .footer a { color: var(--primary); }
 .flow { display: flex; flex-wrap: wrap; align-items: center; }
 .pushed .header-row { padding: 0 var(--reading); }
+.credit { padding: 6px var(--reading) 0; font-size: 12px; line-height: 16px; color: var(--muted); }
+.credit a { text-decoration: underline; text-decoration-color: var(--line); }
+@media (min-width: 720px) { .credit { text-align: right; } }

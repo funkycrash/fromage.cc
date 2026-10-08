@@ -159,6 +159,17 @@ export function PourquoiView() {
 
 // MARK: Fromage
 
+/** Who took the photo and under which licence, as Wikimedia Commons' licences require. */
+function PhotoCredit({ credit }) {
+  if (!credit) return null
+  const ext = { target: '_blank', rel: 'noopener noreferrer' }
+  return html`
+    <p class="credit">
+      Photo : <a href=${credit.source} ...${ext}>${credit.auteur}</a>,
+      ${' '}${credit.licenceUrl ? html`<a href=${credit.licenceUrl} ...${ext}>${credit.licence}</a>` : credit.licence}, via Wikimedia Commons
+    </p>`
+}
+
 export function FromageScreen({ fromage: f, backTitle, onBack }) {
   const [scrolled, setScrolled] = useState(false)
   const now = thisMonth()
@@ -174,6 +185,7 @@ export function FromageScreen({ fromage: f, backTitle, onBack }) {
       <${HeaderBar} title=${capitalize(f.nom)} showsTitle=${scrolled} back=${backTitle} onBack=${onBack} />
       <div class="scroll" onScroll=${(e) => setScrolled(e.currentTarget.scrollTop > 280)}>
         <${Photo} photo=${f.photo} class="hero" eager=${true} />
+        <${PhotoCredit} credit=${f.photo?.credit} />
         <div class="reading">
           <h1 class="fromage-title">${f.nom}<span class="dot">.</span></h1>
           <div class="flow tags">
@@ -193,6 +205,10 @@ export function FromageScreen({ fromage: f, backTitle, onBack }) {
           ${f.description && html`
             <h2 class="section-title">Description</h2>
             <div class="description">${f.description.split(/\n\s*\n/).map((p) => html`<p>${p}</p>`)}</div>`}
+
+          ${f.faits?.length > 0 && html`
+            <h2 class="section-title">Le saviez-vous${' '}?</h2>
+            <ul class="anecdotes">${f.faits.map((fait) => html`<li>${fait}</li>`)}</ul>`}
 
           <h2 class="section-title">Informations</h2>
           <div class="facts">

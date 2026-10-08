@@ -14,11 +14,79 @@
   "debut": 6,
   "fin": 12,
   "lien": "https://www.fromages-aop.com/fromage/abondance/",
-  "description": "C’est bien connu, Abondance ne nuit pas et surtout pas à nos palais ravis d’apprécier la texture souple de ce fromage d’origine monastique, fabriqué uniquement en Haute-Savoie avec le lait cru des deux traites quotidiennes. Moulé dans une toile, il est ensuite placé sous presse pendant une journée avant d’être salé. Placé en cave sur des planches d’épicéa pendant 100 jours minimum, il y est régulièrement frotté à l’eau salée et retourné. Ce fromage est connu pour son petit goût de noisette légèrement amer.",
+  "description": "Un fromage de Haute-Savoie au lait cru de vache, à pâte pressée mi-cuite. Il porte le nom du val d'Abondance, où il est né, et celui de la race de vaches qui fournit l'essentiel de son lait.\n\nSa meule d'une dizaine de kilos, au talon concave, cache une pâte souple au goût de noisette. On le mange tel quel ou fondu, dans une croûte au fromage ou une fondue.",
+  "faits": [
+   "Selon la tradition, les moines de l'abbaye d'Abondance en livrèrent au conclave d'Avignon au XIVe siècle, pendant le Grand Schisme d'Occident.",
+   "Au moins 55 % des vaches de chaque troupeau doivent être de race abondance, une pie rouge originaire de la même vallée."
+  ],
   "photo": {
    "src": "/photos/abondance.jpg",
    "w": 1200,
    "h": 600
+  }
+ },
+ {
+  "slug": "appenzeller",
+  "nom": "appenzeller",
+  "pays": [
+   "Suisse"
+  ],
+  "region": "Appenzell",
+  "lait": [
+   "vache"
+  ],
+  "appellation": "",
+  "annee": "",
+  "debut": 1,
+  "fin": 12,
+  "lien": "https://fr.wikipedia.org/wiki/Appenzeller",
+  "description": "Fromage des deux cantons d'Appenzell, au nord-est de la Suisse, à pâte pressée cuite. Pendant l'affinage, il est régulièrement frotté avec une saumure aux herbes dont la recette reste secrète, ce qui lui donne son goût corsé.\n\nVendu de trois mois à plus de six mois d'affinage, il se trouve toute l'année.",
+  "faits": [
+   "Il est mentionné dès 1282 : les moines de Saint-Gall le recevaient des Appenzellois en paiement de la dîme.",
+   "Pendant l'affinage, il est frotté avec une saumure aux herbes, la « Sulz », dont la recette est un secret jalousement gardé."
+  ],
+  "photo": {
+   "src": "/photos/appenzeller.jpg",
+   "w": 800,
+   "h": 600,
+   "credit": {
+    "auteur": "Ulled",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:App_product_0001_bc.jpg"
+   }
+  }
+ },
+ {
+  "slug": "asiago",
+  "nom": "asiago",
+  "pays": [
+   "Italie"
+  ],
+  "region": "Vénétie",
+  "lait": [
+   "vache"
+  ],
+  "appellation": "AOP",
+  "annee": "1996",
+  "debut": 1,
+  "fin": 12,
+  "lien": "https://fr.wikipedia.org/wiki/Asiago_(fromage)",
+  "description": "Fromage de vache du plateau d'Asiago, dans les Préalpes vénitiennes. Il existe en deux versions : le pressato, jeune et doux, au lait entier, et le d'allevo, au lait partiellement écrémé, affiné de quelques mois à plus d'un an.\n\nLe d'allevo devient plus sec et plus corsé en vieillissant. Entre les deux versions, on en trouve toute l'année.",
+  "faits": [
+   "Il vient du plateau d'Asiago, longtemps pays de moutons : avant de passer au lait de vache, on y faisait des fromages de brebis.",
+   "Il existe en deux versions : le pressato, frais et doux, et le d'allevo, affiné de quelques mois à plus d'un an."
+  ],
+  "photo": {
+   "src": "/photos/asiago.jpg",
+   "w": 800,
+   "h": 654,
+   "credit": {
+    "auteur": "Marco Cattaneo",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Formaggio_Asiago_Dop.jpg"
+   }
   }
  },
  {
@@ -36,7 +104,11 @@
   "debut": 1,
   "fin": 12,
   "lien": "http://www.aoc-banon.com/",
-  "description": "Le banon est un petit fromage français issu d'anciennes recettes des fermes des Alpes-de-Haute-Provence. Son nom vient d'un petit village adossé au Plateau d'Albion entre la montagne de Lure et le mont Ventoux, dans les collines chères à Jean Giono. C'est un fromage de 6 à 7 cm de diamètre au lait cru d'une centaine de grammes.\n\nIl était déjà connu à l'époque romaine. Une anecdote rapporte que l'empereur romain Antonin le Pieux mourut d'indigestion en 161 pour en avoir trop mangé. Il était aussi apprécié sur les tables au Moyen Âge et, au xixe siècle, les écrivains Jules Verne et Frédéric Mistral aimaient beaucoup sa saveur.",
+  "description": "Un petit chèvre de Haute-Provence, au lait cru et entier, qui prend le nom d'un village perché entre la montagne de Lure et le mont Ventoux.\n\nAprès quelques jours d'affinage nu, il est plié dans des feuilles de châtaignier brunes, ficelées de raphia, où il fermente encore au moins dix jours. Les tanins de la feuille lui donnent une pâte crémeuse et un goût un peu boisé.",
+  "faits": [
+   "Les feuilles de châtaignier permettaient autrefois de conserver le fromage jusqu'à l'hiver, quand les chèvres ne donnent plus de lait.",
+   "L'histoire de l'empereur Antonin le Pieux, mort d'une indigestion de banon en 161, est une légende : rien ne l'atteste."
+  ],
   "photo": {
    "src": "/photos/banon.jpg",
    "w": 1688,
@@ -58,11 +130,80 @@
   "debut": 4,
   "fin": 9,
   "lien": "https://www.fromages-aop.com/fromage/beaufort/",
-  "description": "Beaufort est l'appellation d'origine d'un fromage au lait cru de vache, à pâte pressée cuite, élaboré en Savoie en France. La production du lait et sa transformation s'effectuent dans une aire comprenant la région du Beaufortain d'où il tire son nom. Il est formé en meule à talon légèrement concave. L'appellation beaufort est préservée commercialement via une Appellation d'origine protégée.\n\nAutrefois, le volume produit par un nombre conséquent de producteurs fermiers était important, puis il a payé un lourd tribut à l'exode rural et aux contraintes spécifiques de production laitière qui étaient mal valorisées. Son appellation a été préservée dès 1968 via une AOC. Il est aujourd'hui un ingrédient phare de la cuisine savoyarde ; de la fondue savoyarde au gratin de crozets, le beaufort est présent sur de nombreuses tables de lieux touristiques du pays.\n\nSon origine semble remonter a très longtemps. Les Ceutrons, peuple celte, occupent la région. Pline cite leur fromage, le vatusicum, produit grâce au lait de petites vaches. La région est annexée à l'Empire romain vers 20 av. J.-C. Un domaine appartenant à un certain Lucius aurait existé dans le Beaufortain : la vallée portait le nom de Luciaco ou Villa lucia au Moyen Âge et Hauteluce pourrait aussi en provenir.",
+  "description": "Le grand fromage de montagne de Savoie : pâte pressée cuite, lait cru des vaches tarines et abondances du Beaufortain, de la Tarentaise et de la Maurienne. Il faut environ onze litres de lait pour un kilo de fromage.\n\nAffiné au moins cinq mois sur des planches d'épicéa, il a une pâte fondante, fruitée, plus florale en été. Le beaufort d'été et le beaufort d'alpage, faits avec le lait des troupeaux en altitude, sont les plus recherchés.",
+  "faits": [
+   "Son talon concave, unique, vient du cercle de hêtre bombé dans lequel on moule le caillé.",
+   "Le beaufort d'alpage se reconnaît à une petite plaque rouge sur le talon, en plus du label bleu ovale de l'appellation."
+  ],
   "photo": {
    "src": "/photos/beaufort.jpg",
    "w": 1188,
    "h": 769
+  }
+ },
+ {
+  "slug": "bethmale",
+  "nom": "bethmale",
+  "pays": [
+   "France"
+  ],
+  "region": "Ariège",
+  "lait": [
+   "vache"
+  ],
+  "appellation": "",
+  "annee": "",
+  "debut": 9,
+  "fin": 3,
+  "lien": "https://fr.wikipedia.org/wiki/Bethmale_(fromage)",
+  "description": "Tomme des Pyrénées ariégeoises, du Couserans, qui porte le nom de la vallée de Bethmale. Sa pâte pressée, souple et percée de petits trous, est fabriquée chaque jour avec le lait des traites du matin et du soir.\n\nAffiné de trois à dix mois sur des planches de sapin, il prend un goût plus marqué avec l'âge. On le trouve surtout de l'automne à la fin de l'hiver.",
+  "faits": [
+   "Les paysans le fabriquaient surtout l'hiver, quand les vaches restaient à l'étable.",
+   "Selon une tradition locale, le roi Louis VI le Gros y aurait goûté à Saint-Girons au XIIe siècle."
+  ],
+  "photo": {
+   "src": "/photos/bethmale.jpg",
+   "w": 800,
+   "h": 509,
+   "credit": {
+    "auteur": "Thesupermat",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wikicheese_-_Bethmale_-_20150417_-_001.jpg"
+   }
+  }
+ },
+ {
+  "slug": "bitto",
+  "nom": "bitto",
+  "pays": [
+   "Italie"
+  ],
+  "region": "Lombardie",
+  "lait": [
+   "vache",
+   "chèvre"
+  ],
+  "appellation": "AOP",
+  "annee": "1996",
+  "debut": 10,
+  "fin": 4,
+  "lien": "https://fr.wikipedia.org/wiki/Bitto",
+  "description": "Fromage d'alpage de la Valteline, en Lombardie, fabriqué l'été dans les estives avec du lait de vache entier et un peu de lait de chèvre. L'affinage commence dans les chalets d'alpage et se poursuit en cave dans la vallée.\n\nAffiné au moins 70 jours, il peut vieillir plusieurs années et devenir très parfumé. On le goûte à partir de l'automne, une fois les meules de l'été descendues.",
+  "faits": [
+   "Il est fabriqué dans les alpages, avec jusqu'à 10 % de lait de chèvre ajouté au lait de vache.",
+   "Son affinage, commencé à l'alpage puis poursuivi dans les caves de la vallée, va de 70 jours à plusieurs années."
+  ],
+  "photo": {
+   "src": "/photos/bitto.jpg",
+   "w": 800,
+   "h": 532,
+   "credit": {
+    "auteur": "Distretto Agroalimentare di Qualità della Valtellina",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bitto_DOP.jpg"
+   }
   }
  },
  {
@@ -80,7 +221,11 @@
   "debut": 6,
   "fin": 12,
   "lien": "",
-  "description": "Bleu d’Auvergne est une appellation d'origine désignant un fromage français de lait de vache du Massif central. La pâte de ce fromage de forme cylindrique est persillée d'une moisissure allant du bleu au bleu noir. Cette appellation bénéficie de protections depuis 1975.\n\nL'origine du bleu d'Auvergne n'est pas précisément connue, plusieurs versions s'affrontent. Le portail de l'Association des fromages d’Auvergne (association à vocation promotionnelle et commerciale) affirme par exemple qu'il a été créé au milieu du xixe siècle à l'ouest de Clermont-Ferrand par un paysan auvergnat qui ensemença du lait caillé avec la moisissure formée sur du pain de seigle puis percée avec une aiguille\n\nLes fromages transformés à partir de laits de productions estivales sont considérés comme meilleurs. Ce fromage se marie plutôt bien avec une salade du type roquette, le goût corsé de cette salade allié au léger côté aigre du fromage offre un mélange de saveurs apprécié.\n\nCertaines vertus digestives sont attribuées au bleu d'Auvergne, qui agirait sur la flore intestinale",
+  "description": "Un bleu au lait de vache du Massif central, né sur les hautes terres volcaniques d'Auvergne. Sa pâte crémeuse est veinée de bleu à bleu-noir.\n\nOn pique le fromage d'aiguilles à son entrée en cave pour que l'air nourrisse le Penicillium, puis il s'affine au moins quatre semaines au frais. Plus doux et plus beurré que le roquefort, il se prête bien à la cuisine.",
+  "faits": [
+   "On attribue son invention, vers 1850, à Antoine Roussel, qui aurait ensemencé son caillé avec la moisissure d'un pain de seigle et l'aurait piqué à l'aiguille pour l'aérer.",
+   "Il bénéficie d'une appellation d'origine depuis 1975."
+  ],
   "photo": {
    "src": "/photos/bleu-d-auvergne.jpg",
    "w": 1400,
@@ -102,7 +247,11 @@
   "debut": 6,
   "fin": 2,
   "lien": "https://www.fromages-aop.com/fromage/bleu-de-gex-haut-jura/",
-  "description": "Le bleu de Gex Haut-Jura ou bleu de Septmoncel est un fromage produit dans les plateaux du Haut-Jura, à cheval sur les départements de l'Ain et du Jura en France.\nC'est un fromage au lait cru de vache de race montbéliarde ou simmental, à pâte persillée (ou bleu), non pressée et non cuite, d'un poids moyen de 7,5 kg.\nSa période de consommation idéale s'étale de mai à juillet, mais aussi d'avril à novembre, après un affinage de deux mois. Il peut s'accompagner de vins vieux comme les portos.",
+  "description": "Un bleu doux du Haut-Jura, à cheval sur l'Ain et le Jura, fait avec le lait cru des montbéliardes. Sa grosse meule plate de 6 à 9 kilos n'est ni pressée ni cuite.\n\nSa pâte ivoire, légèrement persillée, reste fondante et peu salée. C'est l'un des bleus les plus doux de France, à servir à ceux qui croient ne pas aimer les bleus.",
+  "faits": [
+   "Le mot « Gex » est imprimé en relief sur sa croûte.",
+   "Affiné plus longtemps, il prend un autre nom dans le Haut-Jura : le pérassu."
+  ],
   "photo": {
    "src": "/photos/bleu-de-gex.jpg",
    "w": 1799,
@@ -120,11 +269,15 @@
    "vache"
   ],
   "appellation": "AOP",
-  "annee": "1991",
+  "annee": "1953",
   "debut": 6,
   "fin": 1,
   "lien": "http://www.bleu-des-causses.com/",
-  "description": "Avec une pâte ivoire veinée de bleu, une croûte naturelle fleurie, une texture fondante, un goût corsé, le Bleu des Causses se présente sous la forme d’un cylindre plat d’un poids de 2 à 3 kg.\nCe fromage au lait de vache entier, à pâte persillée puise sa puissance aromatique, son onctueuse consistance et toute l’intensité de sa saveur au cœur du terroir aveyronnais, de la lande des Causses aux prairies un peu plus riches du Nord de l'Aveyron et de la Lozère.\nSa particularité est d’être affiné dans des caves d’affinages naturelles creusées dans des éboulis calcaires, exposées au Nord et parcourues de courants d'air frais et humides via des fleurines permettant le développement du Bleu.",
+  "description": "Un bleu au lait de vache entier du sud du Massif central, cousin du roquefort, avec qui il a longtemps partagé son histoire et ses caves.\n\nIl s'affine au moins 70 jours dans des caves creusées dans les éboulis calcaires des Causses, rafraîchies par des courants d'air naturels. Sa pâte ivoire, bien persillée, est plus douce que celle du roquefort.",
+  "faits": [
+   "Avant les appellations, on y faisait des bleus de vache, de brebis ou de lait mélangé selon les saisons : c'est l'AOC qui l'a séparé du roquefort.",
+   "Ses caves sont aérées par des « fleurines », des failles dans la roche qui soufflent un air frais et humide."
+  ],
   "photo": {
    "src": "/photos/bleu-des-causses.jpg",
    "w": 1200,
@@ -146,7 +299,12 @@
   "debut": 6,
   "fin": 11,
   "lien": "https://www.inao.gouv.fr/produit/3301",
-  "description": "C'est un fromage à pâte persillée non pressée et non cuite dont le croutage présente une fine fleur constituée d’un léger duvet blanc de type moisissure et pouvant tolérer un marbrage coloré d’orange à ivoire.",
+  "description": "Un bleu doux et crémeux du massif du Vercors, entre Drôme et Isère, fait avec le lait des vaches montbéliardes, abondances et villardes.\n\nIl faut 40 litres de lait pour une meule de 4 kilos environ. Piqué d'aiguilles pendant l'affinage pour que le bleu se développe, il garde une pâte souple et un goût délicat.",
+  "faits": [
+   "Il est né au XIVe siècle : en 1338, le baron de Sassenage autorisa les paysans du Vercors à vendre librement leurs fromages.",
+   "Son appellation a sauvé la vache villarde, une race locale alors menacée de disparition.",
+   "Malgré son nom, la ville de Sassenage ne fait pas partie de la zone de production."
+  ],
   "photo": {
    "src": "/photos/bleu-du-vercors-sassenage.jpg",
    "w": 1200,
@@ -168,7 +326,11 @@
   "debut": 5,
   "fin": 10,
   "lien": "",
-  "description": "Ce fromage de lait de vache à pâte molle à croûte lavée, d'un poids moyen de 250 grammes est à base de lait cru ou pasteurisé. Il est fabriqué à partir de débris de maroilles blanc frais et de maroilles « déclassé » de la filière commerciale (dans le cadre de l'AOC maroilles). Il peut être enrichi de persil, d'estragon et de clous de girofle. De forme conique, il est façonné manuellement. Il est parfois couvert de paprika ou de roucou, ce qui lui confère une couleur rouge brun et un goût un peu relevé et âcre.",
+  "description": "Une spécialité de l'Avesnois, dans le Nord : du caillé de maroilles, frais ou abîmé, pétri avec des herbes et des épices (persil, estragon, poivre, clou de girofle), façonné en cône à la main puis souvent roulé dans le paprika.\n\nSans appellation ni cahier des charges, elle existe en version fermière, laitière ou industrielle. La version fermière est lavée à la bière pendant l'affinage. Son goût est puissant, relevé, un peu âcre.",
+  "faits": [
+   "Elle est faite avec des débris de maroilles frais et des maroilles déclassés, qui ne pouvaient pas être vendus sous l'appellation.",
+   "Sa couleur rouge vient du paprika, ou autrefois du rocou, dont on enrobe le cône."
+  ],
   "photo": {
    "src": "/photos/boulette-d-avesnes.jpg",
    "w": 1500,
@@ -186,11 +348,15 @@
    "vache"
   ],
   "appellation": "AOP",
-  "annee": "1996",
+  "annee": "1980",
   "debut": 7,
   "fin": 3,
   "lien": "",
-  "description": "C'est un fromage à base de lait de vache, cru à pâte molle à croûte fleurie, d'un poids moyen de 2,8 kg pour un diamètre de 36 à 37 cm. Sa croûte est fine, d'un blanc duveteux et parsemée de taches rouges. Sa pâte est couleur jaune paille, onctueuse et souple mais non coulante.",
+  "description": "Le plus connu des bries : une grande galette de 36 centimètres au lait cru de vache, à croûte fleurie, fabriquée de la Brie jusqu'à la Meuse.\n\nLe caillé est moulé à la pelle à brie, sans être brisé. Après quelques semaines d'affinage, sa pâte jaune paille, souple et coulante, sent la noisette et le sous-bois. Plus il est affiné, plus il est corsé.",
+  "faits": [
+   "Au congrès de Vienne, en 1815, Talleyrand l'aurait fait proclamer « roi des fromages » lors d'un concours qui réunissait les fromages des pays présents.",
+   "Aujourd'hui, la plus grande partie est fabriquée dans la Meuse, loin de Meaux."
+  ],
   "photo": {
    "src": "/photos/brie-de-meaux.jpg",
    "w": 1200,
@@ -208,11 +374,15 @@
    "vache"
   ],
   "appellation": "AOP",
-  "annee": "2009",
+  "annee": "1980",
   "debut": 7,
   "fin": 3,
   "lien": "",
-  "description": "C'est un fromage à base de lait de vache, cru, à pâte molle à croûte fleurie, d'un poids moyen de 1,5 kg pour 27 cm de diamètre. Il est moins grand que le Brie de Meaux mais plus fort en saveur et en odeur, avec un goût légèrement salé. Le Brie de Melun existe aussi sous la forme de « Vieux-Brie », ou Brie noir. C'est un brie plus sec et de couleur brune qui est encore plus fort et a un goût de paille.",
+  "description": "Le plus rustique des bries : plus petit, plus épais et plus corsé que le brie de Meaux, au lait cru de vache. On le dit parfois ancêtre de tous les bries.\n\nSon lait cru mûrit longuement en cuve avant d'être caillé, et ses fromages s'affinent plus longtemps que ceux de Meaux. Sa croûte blanche se tache de rouge et sa pâte prend un goût franc, un peu salé.",
+  "faits": [
+   "Avec 27 centimètres de diamètre et 1,5 kilo, il est nettement plus petit que le brie de Meaux, qui fait 36 centimètres et 2,8 kilos.",
+   "Il tient son nom de la plaine de Melun, en Seine-et-Marne."
+  ],
   "photo": {
    "src": "/photos/brie-de-melun.jpg",
    "w": 800,
@@ -234,7 +404,11 @@
   "debut": 4,
   "fin": 10,
   "lien": "https://www.inao.gouv.fr/Nos-actualites/L-IGP-pour-le-Brillat-Savarin",
-  "description": "Aussi appelé le « foie gras des fromages », le Brillat-Savarin est un fromage triple crème au lait de vache enrichi en crème. Il présente une croûte au duvet blanc qui laisse parfois apparaître des reflets jaunes. Sa richesse en matière grasse lui donne une fraicheur, ainsi qu'une onctuosité qui fond dans la bouche.",
+  "description": "Un triple crème de Normandie et de Bourgogne, au lait de vache enrichi de crème, avec au moins 72 % de matière grasse sur l'extrait sec.\n\nOn le trouve frais, comme une crème épaisse, ou affiné une à deux semaines sous une fine croûte blanche. Sa pâte est très onctueuse, beurrée, avec une pointe d'acidité.",
+  "faits": [
+   "Il a été créé en 1890 près de Forges-les-Eaux par la famille Dubuc, sous le nom d'« Excelsior ».",
+   "Dans les années 1930, le fromager Henri Androuët le rebaptisa en hommage au gastronome Jean Anthelme Brillat-Savarin, auteur de la Physiologie du goût."
+  ],
   "photo": {
    "src": "/photos/brillat-savarin.jpg",
    "w": 900,
@@ -254,14 +428,50 @@
   ],
   "appellation": "AOP",
   "annee": "1998",
-  "debut": 3,
-  "fin": 12,
+  "debut": 11,
+  "fin": 6,
   "lien": "",
-  "description": "Ce fromage traditionnel corse a la particularité de ne pas être fait à partir de lait, mais de lactosérum (ou petit-lait). On le trouve le plus souvent frais, mais il se consomme également affiné; das ce cas on l’appel « Brocciù Passu ». Le lactosérum recueilli après une fabrication de fromage de chèvre ou /et de brebis est chauffé à une température proche de l’ébullition jusqu’à ce qu’une sorte de mousse crémeuse se forme à la surface.\nCe fromage est recueilli dans un moule, traditionnellement un panier en jonc appelé « caciagia » ou, de plus en plus, dans des faisselles en plastique. Le terme broccio, serait donc issu de « brousser » qui signifie « battre » ou « fouetter »",
+  "description": "Le fromage national de la Corse : un fromage frais de lactosérum de brebis ou de chèvre, auquel on ajoute du lait entier, chauffé puis égoutté dans des faisselles.\n\nIl ne se fait que pendant la saison du lait, de l'automne au début de l'été. Frais, il est doux et léger ; on le mange tel quel, avec de la confiture ou de l'eau-de-vie, ou en cuisine, dans le fiadone et les beignets. On le trouve aussi salé et séché : c'est le brocciu passu.",
+  "faits": [
+   "C'est un fromage de lactosérum, le petit-lait qui reste après la fabrication des autres fromages : rien ne se perd.",
+   "« Qui n'en a pas goûté ne connaît pas l'île », écrivait Émile Bergerat à la fin du XIXe siècle."
+  ],
   "photo": {
    "src": "/photos/brocciu.jpg",
    "w": 1000,
    "h": 500
+  }
+ },
+ {
+  "slug": "brousse-du-rove",
+  "nom": "brousse du Rove",
+  "pays": [
+   "France"
+  ],
+  "region": "Provence",
+  "lait": [
+   "chèvre"
+  ],
+  "appellation": "AOC",
+  "annee": "2018",
+  "debut": 2,
+  "fin": 6,
+  "lien": "https://fr.wikipedia.org/wiki/Brousse_du_Rove",
+  "description": "Fromage frais du village du Rove, près de Marseille, fait du seul lait entier des chèvres de race Rove, reconnaissables à leurs grandes cornes en spirale. Le lait est chauffé puis caillé au vinaigre, et la brousse est moulée dans de petits cônes.\n\nToujours fermière, elle suit la lactation des chèvres : on la trouve surtout de la fin de l'hiver au début de l'été. Elle se mange nature, sucrée avec du miel ou de la confiture, ou dans les desserts provençaux.",
+  "faits": [
+   "Contrairement aux autres brousses, faites de petit-lait, elle est fabriquée avec du lait entier de chèvre du Rove.",
+   "À Marseille, on la mange traditionnellement sucrée, arrosée d'eau de fleur d'oranger."
+  ],
+  "photo": {
+   "src": "/photos/brousse-du-rove.jpg",
+   "w": 800,
+   "h": 535,
+   "credit": {
+    "auteur": "arbovin",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Brousse_du_Rove_01666.jpg"
+   }
   }
  },
  {
@@ -280,7 +490,11 @@
   "debut": 5,
   "fin": 8,
   "lien": "",
-  "description": "La burrata est un fromage italien fait à partir de mozzarella, avec un cœur crémeux, originaire des Pouilles.\nLa burrata est un fromage à pâte filée. Elle ne pèse que 500 g, c'est un petit fromage qui est souvent présenté enfermé dans des feuilles de jonc vertes et conservé dans son petit lait ou de l'eau salée.",
+  "description": "Une spécialité des Pouilles : une poche de pâte filée, comme la mozzarella, remplie de crème et de lambeaux de mozzarella (la stracciatella), puis refermée en petite bourse.\n\nElle se conserve très peu de temps et se mange le plus frais possible, à température ambiante, avec un filet d'huile d'olive, des tomates ou de la roquette. Faite le plus souvent au lait de vache, elle est plus riche au printemps, quand les vaches mangent l'herbe nouvelle.",
+  "faits": [
+   "On attribue souvent son invention à Lorenzo Bianchino, éleveur près d'Andria, qui aurait cherché à écouler son lait pendant l'hiver très enneigé de 1956.",
+   "Depuis 2016, la burrata di Andria est protégée par une IGP."
+  ],
   "photo": {
    "src": "/photos/burrata.jpg",
    "w": 1200,
@@ -302,11 +516,49 @@
   "debut": 4,
   "fin": 8,
   "lien": "",
-  "description": "Le cabécou est un fromage au lait de chèvre cru du Périgord. Il a une pâte fine et onctueuse et possède un goût plutôt doux. Autrefois, il était appelé «fromage de crème».",
+  "description": "Un petit palet de chèvre du Massif central, du Quercy au Périgord en passant par le Rouergue, qui ne pèse pas plus de 40 grammes, le plus souvent au lait cru.\n\nOn le mange frais et doux, ou plus affiné, quand sa croûte se couvre d'un léger bleu et que son goût se corse. Il est délicieux chaud, posé sur une tranche de pain grillé.",
+  "faits": [
+   "Son nom vient de l'occitan : « cabecou » veut dire « petite chèvre ».",
+   "Le rocamadour, qui a sa propre AOP, est le plus célèbre des cabécous."
+  ],
   "photo": {
    "src": "/photos/cabecou.jpg",
    "w": 1000,
    "h": 500
+  }
+ },
+ {
+  "slug": "cabrales",
+  "nom": "cabrales",
+  "pays": [
+   "Espagne"
+  ],
+  "region": "Asturies",
+  "lait": [
+   "vache",
+   "brebis",
+   "chèvre"
+  ],
+  "appellation": "AOP",
+  "annee": "1996",
+  "debut": 6,
+  "fin": 12,
+  "lien": "https://fr.wikipedia.org/wiki/Cabrales_(fromage)",
+  "description": "Bleu des Asturies au lait cru de vache, ou d'un mélange de vache, brebis et chèvre. Il est affiné deux à quatre mois dans les grottes calcaires des Picos de Europa, où la moisissure se développe naturellement.\n\nTrès puissant et piquant, il était autrefois emballé dans des feuilles d'érable. Fait du lait du printemps et de l'été, il se goûte de l'été à la fin de l'année.",
+  "faits": [
+   "Il s'affine dans des grottes calcaires des Picos de Europa, où l'humidité atteint 90 % et où la température reste autour de 10 °C.",
+   "Il peut être fait au lait de vache seul, ou avec un mélange de lait de vache, de brebis et de chèvre, qui lui donne un goût encore plus fort."
+  ],
+  "photo": {
+   "src": "/photos/cabrales.jpg",
+   "w": 800,
+   "h": 600,
+   "credit": {
+    "auteur": "PDPhoto.org",
+    "licence": "Public domain",
+    "licenceUrl": null,
+    "source": "https://commons.wikimedia.org/wiki/File:Cabrales_blue_Cheese.jpg"
+   }
   }
  },
  {
@@ -324,7 +576,12 @@
   "debut": 5,
   "fin": 10,
   "lien": "https://www.lesfromagesdenormandie.com/camembert-de-normandie-io22.html",
-  "description": "Le camembert de Normandie est un fromage au lait cru de vache, à pâte molle légèrement salée et à croûte fleurie dont le lait cru est produit et transformé en Normandie.\nLe nom provient du village de Camembert, en Basse-Normandie, où le fromage aurait été originellement fabriqué.",
+  "description": "Le seul camembert protégé par une appellation : fait en Normandie avec le lait de vaches en partie de race normande, qui pâturent au moins six mois par an.\n\nAprès au moins trois semaines d'affinage, sa croûte blanche duvetée enveloppe une pâte souple qui sent le champignon et la crème. Le camembert de Normandie ne représente qu'une petite partie des camemberts vendus.",
+  "faits": [
+   "La légende veut que Marie Harel, fermière de Camembert, l'ait inventé en 1791 grâce au secret du brie, confié par un prêtre réfractaire qu'elle cachait. Les historiens en doutent : on parlait déjà du fromage de Camembert au début du XVIIIe siècle.",
+   "Sa célèbre boîte ronde en peuplier, inventée à la fin du XIXe siècle, lui a permis de voyager loin de Normandie.",
+   "Autrefois, sa croûte était bleu-vert tachée de rouge. Elle est devenue blanche au début du XXe siècle, parce que le public parisien la préférait ainsi."
+  ],
   "photo": {
    "src": "/photos/camembert-de-normandie.jpg",
    "w": 900,
@@ -346,7 +603,12 @@
   "debut": 1,
   "fin": 12,
   "lien": "",
-  "description": "La cancoillotte est un fromage français à pâte fondue fabriqué en Haute-Saône et dans le reste de la Franche-Comté1. Elle est obtenue à partir d'un mélange de metton (lait écrémé caillé) et d'eau, additionné de beurre en fin de préparation. Ce fromage typique de la cuisine franc-comtoise est un fromage (hors produit industriel) maigre, dont le taux de 8 à 12 % de matière grasse vient du beurre ajouté lors de la fonte. Durant la Seconde Guerre mondiale, la vente du metton était libre en France, puisque ne comptant pas de matière grasse, alors que tous les autres produits gras étaient soumis au rationnement. La saveur de ce fromage a évolué et deux cancoillottes, dont une au goût plus prononcé, existent.",
+  "description": "Une spécialité fromagère de Franche-Comté, coulante et dorée : on fait fondre du metton, un petit lait caillé et affiné, avec de l'eau et du sel, puis on ajoute un peu de beurre, parfois de l'ail ou du vin blanc.\n\nTrès peu grasse, elle se mange froide sur du pain ou chaude, nappée sur des pommes de terre et de la saucisse de Morteau. Elle est protégée par une IGP depuis 2022.",
+  "faits": [
+   "Son nom vient de « coille », un mot franc-comtois qui désigne le lait caillé.",
+   "Elle serait née au XVIe siècle à Oyrières, en Haute-Saône, sans doute pour ne pas perdre le lait qui avait tourné trop vite.",
+   "Au Luxembourg, on fait un fromage presque identique, le kachkéis."
+  ],
   "photo": {
    "src": "/photos/cancoillotte.jpg",
    "w": 1200,
@@ -368,7 +630,11 @@
   "debut": 5,
   "fin": 1,
   "lien": "",
-  "description": "Le cantal est un fromage français à pâte pressée non cuite, originaire du Massif central et fabriqué à partir de lait cru de vache ou pasteurisé. L'appellation d'origine de cette fourme est préservée par une AOC en France et par une AOP au niveau européen. 400 litres de lait sont nécessaires à la confection d’une fourme de 40 kg",
+  "description": "L'un des plus vieux fromages de France, fait dans le Massif central avec du lait de vache. Ses grosses fourmes cylindriques pèsent jusqu'à 45 kilos ; il faut environ 400 litres de lait pour en faire une de 40 kilos.\n\nLe caillé est pressé une première fois en « tome », puis broyé, salé et pressé de nouveau. On le trouve jeune (au moins 30 jours d'affinage, doux et lactique), entre-deux, ou vieux (au moins 240 jours), plus piquant.",
+  "faits": [
+   "Le maréchal de La Ferté-Senneterre l'aurait fait servir à la table de Louis XIV, ce qui assura sa renommée.",
+   "La tome fraîche de cantal sert aussi à préparer la truffade, avec des pommes de terre."
+  ],
   "photo": {
    "src": "/photos/cantal.jpg",
    "w": 1200,
@@ -390,7 +656,11 @@
   "debut": 6,
   "fin": 11,
   "lien": "",
-  "description": "Le chabichou du Poitou est un chabichou (fromage au lait de chèvre à pâte blanche et molle à croûte naturelle) originaire du Poitou (France). Il s'identifie par une étiquette caractéristique, avec macaron et bretelles.\nC'est un petit fromage légèrement tronconique d'un poids moyen de 150 grammes.",
+  "description": "Un petit chèvre du Haut-Poitou en forme de tronc de cône, d'environ 150 grammes, à croûte naturelle fine.\n\nAffiné au moins dix jours, il a une pâte blanche, ferme et fine, au goût caprin bien net. Il gagne du caractère en vieillissant ; on l'aime avec un sauvignon de la région.",
+  "faits": [
+   "Son nom a la même racine que « cabécou » : le latin capra, la chèvre, passé par le poitevin chabre.",
+   "La crise du phylloxéra, qui ravagea les vignes du Poitou à la fin du XIXe siècle, poussa beaucoup de paysans vers l'élevage de chèvres."
+  ],
   "photo": {
    "src": "/photos/chabichou-du-poitou.jpg",
    "w": 1200,
@@ -412,7 +682,11 @@
   "debut": 7,
   "fin": 11,
   "lien": "https://www.fromages-aop.com/fromage/chaource/",
-  "description": "Le chaource est un fromage à pâte molle à croûte fleurie à prédominance lactique. Il est exclusivement fabriqué avec du lait de vache entierdont la composition n’est pas modifiée (il ne subit ni ajout ni soustraction de matières grasses ou de protéines). Sa pâte, salée, a une teneur en matière sèche d’au moins 40 % et contient au moins 48 % de matière grasse dans l’extrait sec.",
+  "description": "Un fromage de l'Aube et de l'Yonne, au lait entier de vache, à croûte fleurie blanche. Il est caillé surtout par l'acidité du lait, lentement, à la manière des fermières d'autrefois.\n\nJeune, sa pâte est crayeuse et fraîche, un peu acidulée ; en s'affinant, elle devient crémeuse sous la croûte. Il existe en deux formats, de 250 et 450 grammes, et se marie bien avec un champagne de la même région.",
+  "faits": [
+   "Les fermières le faisaient avec un caillé qui s'égouttait seul, lentement, sans surveillance : une méthode adaptée à leurs journées chargées, qui lui a donné son goût lactique.",
+   "Il tient son nom du village de Chaource, dans l'Aube, où l'on fait du fromage depuis au moins le Moyen Âge."
+  ],
   "photo": {
    "src": "/photos/chaource.jpg",
    "w": 800,
@@ -434,7 +708,11 @@
   "debut": 4,
   "fin": 11,
   "lien": "https://androuet.com/Charolais-39.html",
-  "description": "Charolais est une appellation d'origine française désignant un fromage au lait cru de chèvre, à pâte molle à croûte naturelle. Originaire des collines du Charolais et du Brionnais, en Bourgogne, ce fromage est aujourd'hui produit dans certaines communes de Saône-et-Loire majoritairement, mais aussi dans l'Allier, la Loire et le Rhône.\nCette appellation est protégée en France depuis 2010 par une appellation d'origine contrôlée (AOC) et depuis juin 2014 par une appellation d'origine protégée (AOP).",
+  "description": "Un grand chèvre au lait cru et entier, venu des collines du Charolais et du Brionnais, en Bourgogne. Haut et légèrement bombé, il pèse 250 à 310 grammes, ce qui en fait l'un des plus gros fromages de chèvre.\n\nMoulé à la louche, il s'affine au moins 16 jours, souvent bien plus. Sa croûte passe de l'ivoire au bleuté et sa pâte, d'abord fine et fondante, devient plus ferme et plus corsée.",
+  "faits": [
+   "Il a longtemps été fait d'un mélange de lait de vache et de chèvre : il n'est fait qu'au lait de chèvre depuis les années 1960.",
+   "En 2010, il est devenu la 46e appellation fromagère française."
+  ],
   "photo": {
    "src": "/photos/charolais.jpg",
    "w": 760,
@@ -456,7 +734,11 @@
   "debut": 4,
   "fin": 11,
   "lien": "",
-  "description": "Le crottin de Chavignol est un fromage de chèvre français originaire du village berrichon de Chavignol situé dans le département du Cher, la région Centre-Val de Loire et la région naturelle du Sancerrois.\nLe Crottin de Chavignol est un fromage au lait cru fabriqué à base de lait de chèvre entier, il est obtenu par coagulation lactique . Il se présente sous la forme d'un cylindre plat très légèrement bombé à sa périphérique. Le diamètre central, supérieur aux diamètres haut et bas, est la conséquence du retournement en moule obligatoire.",
+  "description": "Le crottin de Chavignol est un petit cylindre de chèvre au lait cru du Sancerrois, dans le Cher. Caillé lentement par l'acidité du lait, il pèse de 60 à 90 grammes.\n\nIl se mange à tous les âges : frais et doux, demi-sec, ou très sec et cassant, quand sa croûte brunit et que son goût devient puissant. Grillé sur du pain, il se marie avec un sancerre blanc de la même colline.",
+  "faits": [
+   "Son nom ne vient pas du crottin : un « crot », en berrichon, désignait une petite lampe à huile en terre cuite, dont la forme rappelait le moule à fromage.",
+   "Le phylloxéra, qui détruisit les vignes de Sancerre à la fin du XIXe siècle, poussa de nombreux vignerons à élever des chèvres."
+  ],
   "photo": {
    "src": "/photos/chavignol.jpg",
    "w": 800,
@@ -478,7 +760,12 @@
   "debut": 1,
   "fin": 12,
   "lien": "http://publications.europa.eu/resource/cellar/f62f8e64-4b9f-4515-9e96-062b54081599.0003.02/DOC_1",
-  "description": "Le cheddar est un fromage jaune pâle au goût prononcé au lait de vache. Il est originaire du village anglais de Cheddar dans le Somerset. Il se décline en différentes variétés dans plusieurs pays : Royaume-Uni, Irlande, Canada, États-Unis, Afrique du Sud, Nouvelle-Zélande, Australie et Suède. Il est le plus souvent produit en masse et sa qualité varie énormément de variété en variété. Le goût prononcé se développe avec le temps, suffisamment pour inciter les producteurs à mentionner sa « force » : doux, moyen, fort et extra-fort, ou sa période de maturation.",
+  "description": "Le cheddar vient du village de Cheddar, dans le Somerset, mais il est fabriqué aujourd'hui dans le monde entier, souvent de façon industrielle. Seul le West Country Farmhouse Cheddar est protégé : fait à la ferme dans le Somerset, le Dorset, le Devon et la Cornouailles, avec le lait de la région et selon la méthode traditionnelle.\n\nSon caillé est « cheddarisé » : découpé en blocs que l'on empile et retourne pour l'égoutter. Affiné plusieurs mois, souvent enveloppé de tissu, il prend une pâte ferme, un peu friable, et un goût franc et piquant.",
+  "faits": [
+   "En 1170, les comptes du roi Henri II d'Angleterre mentionnent l'achat de plus de 4 tonnes de cheddar.",
+   "Les grottes des gorges de Cheddar, fraîches et humides, servaient à l'affiner.",
+   "Au XIXe siècle, Joseph Harding, fermier du Somerset, a modernisé sa fabrication : on l'appelle le « père du cheddar »."
+  ],
   "photo": {
    "src": "/photos/cheddar.jpg",
    "w": 800,
@@ -500,7 +787,11 @@
   "debut": 4,
   "fin": 9,
   "lien": "",
-  "description": "Le chevrotin est un fromage fermier au lait cru de chèvredes départements de Savoie et Haute-Savoie\nC'est un fromage, à pâte pressée non cuite, d'un poids entre 250 et 350 grammes, avec une fine croûte blanc rosé",
+  "description": "Le cousin au lait de chèvre du reblochon : un petit fromage fermier de Savoie et Haute-Savoie, au lait cru, fabriqué comme lui puis lavé et affiné au moins trois semaines sur des planches d'épicéa.\n\nSa croûte lavée, jaune pâle, couverte d'une fine mousse blanche, protège une pâte souple et fondante, au goût doux et légèrement caprin.",
+  "faits": [
+   "Il est fait depuis le XVIIe siècle dans les Aravis, le Chablais et les Bauges, sur des pentes si raides que seules les chèvres peuvent y paître.",
+   "C'est un fromage exclusivement fermier : chaque chevrotin porte une plaque de caséine avec le numéro du producteur."
+  ],
   "photo": {
    "src": "/photos/chevrotin.jpg",
    "w": 1000,
@@ -522,7 +813,11 @@
   "debut": 8,
   "fin": 3,
   "lien": "",
-  "description": "Comté est l'appellation d'origine d'un fromage français principalement transformé en Franche-Comté. Son aire de production s'étend dans les départements du Jura, du Doubs et l'est de l'Ain.\nC'est un fromage de lait cru de vache, à pâte pressée cuite. Il se présente en meules de 55 à 75 cm de diamètre1 et d'une masse de 32 à 45 kg1. Il faut produire environ 450 litres de lait cru pour fabriquer une meule de comté.",
+  "description": "Le premier fromage d'appellation de France en volume, fait dans le massif du Jura avec le lait cru des montbéliardes. Une meule pèse de 32 à 45 kilos et demande environ 450 litres de lait.\n\nIl n'existe pas de comté industriel : il est fabriqué dans plus de 150 fruitières de village. Affiné au moins quatre mois, souvent bien plus, il offre une palette d'arômes immense, du beurre frais et du lait chaud jusqu'à la noisette grillée et au cuir pour les vieux comtés.",
+  "faits": [
+   "Les fruitières, ces coopératives où les éleveurs mettent leur lait en commun pour faire de grandes meules, existent depuis le Moyen Âge.",
+   "Les vaches doivent disposer d'au moins un hectare de prairie chacune, et l'ensilage est interdit."
+  ],
   "photo": {
    "src": "/photos/comte.jpg",
    "w": 1200,
@@ -544,11 +839,47 @@
   "debut": 3,
   "fin": 7,
   "lien": "",
-  "description": "Le coulommiers est un fromage au lait de vache, à pâte molle, non pressée et non cuite, composé de 45 à 50 % de matières grasses originaire de Coulommiers, apparenté au Brie, même s'il n'est plus produit dans la ville depuis longtemps.",
+  "description": "Un fromage de Seine-et-Marne, au lait de vache et à croûte fleurie, cousin du brie. Plus petit et plus épais que lui, environ 13 à 15 centimètres de diamètre, il était autrefois appelé « petit brie de Coulommiers ».\n\nSa pâte souple, couleur beurre, a un goût de noisette quand il est bien fait au lait cru. N'ayant pas d'appellation, il est aussi produit de façon industrielle, au lait pasteurisé.",
+  "faits": [
+   "Il serait né d'un besoin pratique : les grands bries, de plus de 40 centimètres, étaient fragiles à transporter, alors on en fit de plus petits.",
+   "En 1930, 250 fromagers venaient vendre leurs fromages chaque mercredi au marché de Coulommiers."
+  ],
   "photo": {
    "src": "/photos/coulommiers.jpg",
    "w": 1000,
    "h": 500
+  }
+ },
+ {
+  "slug": "edam",
+  "nom": "édam",
+  "pays": [
+   "Pays-Bas"
+  ],
+  "region": "Hollande-Septentrionale",
+  "lait": [
+   "vache"
+  ],
+  "appellation": "IGP",
+  "annee": "2010",
+  "debut": 1,
+  "fin": 12,
+  "lien": "https://fr.wikipedia.org/wiki/%C3%89dam_(fromage)",
+  "description": "La boule de la ville d'Edam, au nord d'Amsterdam, reconnaissable à sa paraffine rouge ou jaune. Sa pâte pressée, douce et légèrement salée, devient plus ferme et plus goûteuse en vieillissant.\n\nSeul « Edam Holland », fait aux Pays-Bas avec du lait néerlandais, est protégé par une indication géographique. Il se trouve toute l'année.",
+  "faits": [
+   "Du XIVe au XVIIIe siècle, il a été l'un des fromages les plus répandus au monde : il voyageait bien et durcissait au lieu de se gâter, idéal pour les navires et les colonies.",
+   "Les fromagers du nord de la France s'en sont inspirés pour créer la mimolette."
+  ],
+  "photo": {
+   "src": "/photos/edam.jpg",
+   "w": 800,
+   "h": 600,
+   "credit": {
+    "auteur": "Yvwv",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:SmallEdamCheese.jpg"
+   }
   }
  },
  {
@@ -566,7 +897,11 @@
   "debut": 1,
   "fin": 12,
   "lien": "",
-  "description": "L’emmental, emmenthal ou encore emmentaler est un fromage suisse à pâte dure dont le nom provient de la vallée de l'Emme, une région à l'est du canton de Berne.\nC'est un fromage à pâte pressée cuite, fabriqué à partir de lait de vache. La meule de l'Emmentaler AOC est d'un poids moyen de 90 kg.\nSa période de dégustation optimale s'étale de mai à octobre après un affinage de trois mois au minimum, la période de novembre à avril étant un cran en dessous. Pour avoir un goût plus corsé, la période d'affinage va de 8 à 12 mois, voire davantage.",
+  "description": "Le vrai emmentaler vient de la vallée de l'Emme, dans le canton de Berne. Ses meules géantes de lait cru de vache, à pâte pressée cuite, pèsent en moyenne 90 kilos.\n\nSes trous, les « yeux », naissent pendant l'affinage en cave tiède, quand des bactéries propioniques dégagent du gaz dans la pâte. Affiné au moins quatre mois, il a un goût doux de noisette, plus corsé après huit à douze mois.",
+  "faits": [
+   "Ses meules sont si grosses pour une raison fiscale : au XIXe siècle, les droits de douane se payaient à la pièce, et non au poids.",
+   "Longtemps, les fromagers essayaient d'éviter les trous, considérés comme un défaut. Ils sont aujourd'hui un signe de qualité."
+  ],
   "photo": {
    "src": "/photos/emmental.jpg",
    "w": 1200,
@@ -588,7 +923,11 @@
   "debut": 5,
   "fin": 10,
   "lien": "",
-  "description": "L’Emmental de Savoie est un fromage de vache au lait crufabriqué en France dans les départements alpins de la Savoie et de la Haute-Savoie.\nIl fait partie de la famille des fromages à pâte pressée cuite1. Le nom de ce fromage français est une indication géographique protégée. Il est parfois appelé à tort « gruyère ».",
+  "description": "Un emmental au lait cru de vache, fait dans les fruitières de Savoie et de Haute-Savoie. Il est protégé par une IGP, alors que la grande majorité des emmentals français sont industriels.\n\nSa pâte souple et brillante, percée de gros yeux, a un goût fruité et doux. On le mange en tranches, ou fondu dans un gratin ou une croûte.",
+  "faits": [
+   "Ses trous sont apparus au XIXe siècle, quand les fruitières ont commencé à chauffer leurs caves : la chaleur réveille les bactéries qui produisent du gaz dans la pâte.",
+   "En France, on l'appelle souvent à tort « gruyère » ; le gruyère suisse, lui, n'a presque pas de trous."
+  ],
   "photo": {
    "src": "/photos/emmental-de-savoie.jpg",
    "w": 1200,
@@ -610,7 +949,12 @@
   "debut": 5,
   "fin": 10,
   "lien": "",
-  "description": "C'est un fromage à base de lait de vache, à pâte molle, à croûte lavée, son poids est généralement de 250 grammes, mais on peut le trouver dans des formats plus grands. Ce fromage, qui contient 24 % de matière grasse, est affiné en étant frotté au marc de Bourgogne. Sa couleur ivoire orangée à rouge brique est due aux bactéries de surface : l'utilisation de colorants est strictement interdite.",
+  "description": "Un fromage de Bourgogne au lait de vache, à pâte molle et croûte lavée, vendu dans une boîte en bois. Pendant l'affinage, on le lave à l'eau salée puis au marc de Bourgogne.\n\nSa croûte lisse et brillante, orange à rouge brique, sent fort ; sa pâte est fondante, presque coulante à cœur, avec un goût puissant mais moins violent que son odeur.",
+  "faits": [
+   "Selon la tradition, il a été créé au XVIe siècle par des moines cisterciens installés à Époisses, qui ont transmis la recette aux fermières.",
+   "Sa fabrication avait presque disparu après la Seconde Guerre mondiale. Robert et Simone Berthaut l'ont relancée en 1956.",
+   "Sa couleur vient des bactéries de sa croûte, pas d'un colorant : ils sont interdits."
+  ],
   "photo": {
    "src": "/photos/epoisses.jpg",
    "w": 1000,
@@ -632,7 +976,12 @@
   "debut": 3,
   "fin": 10,
   "lien": "",
-  "description": "L’Etivaz AOP est un fromage d'alpage à pâte dure, fabriqué au lait cru de mai à octobre, dans plus de cent alpages des Alpes Vaudoises. De goût franc et aromatique, fruité, avec un léger goût de noisette, qui varie selon le terroir des différents alpages. La pâte est de couleur jaune ivoire, les meules pèsent de 15 à 35 kg. L’Etivaz AOP est affiné pendant 5 et 13 mois et se conserve très bien. \nConsommé en rebibes, il est affiné pendant au moins 30 mois",
+  "description": "Un gruyère d'alpage du canton de Vaud, fait seulement l'été, de mai à octobre, quand les vaches sont en estive. Le lait cru est chauffé dans des chaudrons en cuivre, sur un feu de bois, comme il y a un siècle.\n\nSes meules de 20 à 50 kilos s'affinent au moins cinq mois dans les caves du village de L'Etivaz. Sa pâte est fruitée, un peu fumée, plus douce qu'un vieux gruyère.",
+  "faits": [
+   "En 1932, 76 familles de fromagers ont quitté la filière du gruyère pour préserver leur méthode traditionnelle, et ont fondé leur propre fromage.",
+   "En 2000, il est devenu le premier produit suisse, après le vin, à obtenir une AOC.",
+   "Certaines meules sont séchées jusqu'à trois ans, puis rabotées en fins copeaux : les rebibes."
+  ],
   "photo": {
    "src": "/photos/etivaz.jpg",
    "w": 1200,
@@ -651,11 +1000,15 @@
    "brebis"
   ],
   "appellation": "AOP",
-  "annee": "2012",
+  "annee": "2002",
   "debut": 4,
   "fin": 11,
   "lien": "",
-  "description": "Le (ou la) feta ou féta est un fromage caillé en saumure de Grèce. Le nom de ce fromage est un emprunt à l’italien fetta(« tranche ») qui daterait du XVIIe siècle. Elle caractérise un fromage produit selon des techniques précises. Ce type de fromage est traditionnellement produit à partir de lait de chèvre ou de brebis.",
+  "description": "Le fromage blanc en saumure de la Grèce, fait avec du lait de brebis, parfois mélangé à un peu de lait de chèvre (30 % au maximum).\n\nLe caillé est salé, découpé en blocs puis mûrit au moins deux mois dans la saumure, en tonneaux de bois ou en cuves. Friable, salé et acidulé, il est la base de la salade grecque et de la spanakopita, la tourte aux épinards.",
+  "faits": [
+   "Son nom vient de l'italien fetta, « tranche », sans doute pour la façon de la découper.",
+   "Depuis 2002, seule la feta faite en Grèce continentale et à Lesbos peut porter ce nom dans l'Union européenne."
+  ],
   "photo": {
    "src": "/photos/feta.jpg",
    "w": 900,
@@ -673,11 +1026,15 @@
    "vache"
   ],
   "appellation": "AOP",
-  "annee": "2002",
+  "annee": "1996",
   "debut": 4,
   "fin": 9,
   "lien": "",
-  "description": "La fontine (en italien, fontina) est un fromage italien, à base de lait de vache à texture demi-dure, produit de la Vallée d'Aoste.\nCe fromage est produit à partir du lait entier cru de vaches de race valdôtaine (la rodza ou la nèira) alimentées de fourrage vert pendant l'été et de foin local pendant le reste de l'année. La fontine se produit seulement en Vallée d'Aoste, le vin conseillé pour l'accompagner est le Gamay Vallée d'Aoste AOC.",
+  "description": "Le grand fromage de la vallée d'Aoste : une pâte pressée cuite au lait cru et entier de vaches valdôtaines, fait avec le lait d'une seule traite.\n\nSa pâte souple, à petits trous, a un goût doux de noisette. Elle fond parfaitement : c'est le fromage de la fonduta valdôtaine.",
+  "faits": [
+   "Son nom apparaît dès 1477, et une fresque du château d'Issogne la représente déjà au XVe siècle.",
+   "Son nom viendrait d'un alpage appelé Fontin, ou du vieux français « fondis », qui fond."
+  ],
   "photo": {
    "src": "/photos/fontina.jpg",
    "w": 1500,
@@ -699,7 +1056,12 @@
   "debut": 5,
   "fin": 10,
   "lien": "",
-  "description": "Membre de la famille des fromages à pâte persillée, la Fourme d'Ambert est produite en Auvergne, entre 600 et 1 600 m d’altitude, sur la zone de montagne du Puy-de-Dôme, 5 cantons du Cantal et 8 communes de la Loire. La richesse et la biodiversité de ce terroir lui confèrent son parfum subtil et délicat. Elle est fabriquée à partir du lait de vaches nourries à base d’herbe provenant exclusivement de la zone d’appellation.\n\nCe fromage est sans doute l'un des plus anciens de France : une légende veut que la fourme se préparait au temps des puissants Arvernes, avant la conquête de la Gaule par César (selon cette légende, ce dernier, avant d'aller à Gergovie, serait passé par Ambert où il aurait consommé le fromage) mais ses premières traces remontent aux environs du viiie siècle où il était dû par les serfs au seigneur pour une partie de la dîme (« pierre dîmale » de l'église de la Chaulme). La fourme d'Ambert a fait office de monnaie d'échange au xviiie siècle, pour la location des jasseries, fermes d'estive des Hautes Chaumes des monts du Forez servant d'habitation temporaire et d'étable. La fourme était traditionnellement transformée par les femmes et les enfants (les hommes restant dans la plaine d'Ambert pour faire les travaux des champs) dans ces jasseries9. Le fromage prit le nom de « fourme de Pierre sur Haute », en référence au point culminant du massif qui était le centre de la zone de production laitière. C'est sous ce nom que le fromage a fait l'objet d'une dénomination commune le 14 mai 1939. Alors que la production était exclusivement fermière et réalisée en estive, des fromageries de dimensions modestes sont créées dès 1900, permettant une fabrication totale de l’ordre de 200 tonnes par an.",
+  "description": "L'un des plus anciens fromages de France : un haut cylindre à pâte persillée, au lait de vache, né autour d'Ambert, au pied des monts du Forez.\n\nSon caillé est brassé doucement pour garder des petites cavités où le bleu se développe, puis le fromage est piqué et affiné au moins 28 jours. C'est un bleu doux, crémeux, au goût de sous-bois.",
+  "faits": [
+   "Au XVIIIe siècle, elle servait de monnaie d'échange pour louer les jasseries, les fermes d'estive des monts du Forez.",
+   "On voit sa forme sculptée au-dessus de l'entrée d'une chapelle médiévale à La Chaulme, dans le Puy-de-Dôme.",
+   "« Fourme » vient du latin forma, le moule, qui a aussi donné le mot « fromage »."
+  ],
   "photo": {
    "src": "/photos/fourme-d-ambert.jpg",
    "w": 3401,
@@ -721,7 +1083,11 @@
   "debut": 10,
   "fin": 4,
   "lien": "",
-  "description": "La fourme de Montbrison est une appellation d'origine désignant un fromage français du département de la Loire à pâte persillée élaboré avec des laits crus ou pasteurisés de vache, bénéficiant d'une AOC depuis 1972 et d'une AOP depuis septembre 2010.",
+  "description": "Un bleu doux des monts du Forez, dans la Loire, en haut cylindre d'environ deux kilos. Sa croûte est orangée ; à la fabrication, les fourmes s'égouttent sur des gouttières en bois d'épicéa.\n\nSa pâte crème, peu persillée, est souple et douce, plus beurrée que celle de sa voisine, la fourme d'Ambert.",
+  "faits": [
+   "On l'appelait autrefois « fromage de Roche », du nom d'un village du Forez.",
+   "Elle est inscrite depuis 2018 à l'inventaire du patrimoine culturel immatériel en France."
+  ],
   "photo": {
    "src": "/photos/fourme-de-montbrison.jpg",
    "w": 1200,
@@ -743,7 +1109,11 @@
   "debut": 4,
   "fin": 11,
   "lien": "",
-  "description": "Le gorgonzola est l'appellation d'origine d'un fromage traditionnel à base de lait de vache, à pâte persillée, fabriqué dans les régions de Lombardie et du Piémont.\nDepuis le 12 juin 1996, l'appellation d'origine « gorgonzola » est préservée au niveau de l'Union européenne par une appellation d'origine protégée (AOP)",
+  "description": "Le grand bleu italien, au lait entier de vache, fabriqué en Lombardie et au Piémont. Il tient son nom d'une petite ville près de Milan.\n\nIl existe en deux versions : le dolce, jeune, crémeux et presque coulant, et le piccante, affiné plus longtemps, plus ferme et plus fort. Le premier se tartine ; le second se fond dans les pâtes et le risotto.",
+  "faits": [
+   "Jusqu'au début du XXe siècle, on l'appelait « stracchino verde », le stracchino vert.",
+   "Une légende lombarde raconte qu'un fromager, pressé de rejoindre son amoureuse, oublia son caillé toute la nuit ; quelques mois plus tard, il y découvrit des veines bleues délicieuses."
+  ],
   "photo": {
    "src": "/photos/gorgonzola.jpg",
    "w": 3075,
@@ -760,12 +1130,16 @@
   "lait": [
    "vache"
   ],
-  "appellation": "AOP",
-  "annee": "1992",
+  "appellation": "IGP",
+  "annee": "2010",
   "debut": 5,
   "fin": 10,
   "lien": "",
-  "description": "Le gouda (en néerlandais Goudse kaas, « fromage de Gouda ») est le fromage le plus connu et le plus consommé des Pays-Bas. Il tient son nom de la ville de Gouda, en Hollande-Méridionale, où il était traditionnellement commercialisé. Actuellement le gouda peut être fabriqué partout au monde. Depuis 2010, un fromage \"Gouda Holland\" vendu en Union Européenne doit être produit aux Pays-Bas. Un fromage de Gouda est en forme de roue, a une masse d'environ 15 kg pour un taux de matières grasses sur extrait sec d'au moins 48 % (normalement aux environs de 51 %). Il y a 81 % de gouda blanc, les autres types minoritaires sont le jaune, rouge et orange.",
+  "description": "Le fromage le plus célèbre des Pays-Bas : une meule de lait de vache à pâte pressée, enrobée de paraffine. Fabriqué aujourd'hui dans le monde entier, il n'est protégé que sous le nom de « Gouda Holland » quand il est fait aux Pays-Bas avec du lait néerlandais.\n\nJeune, il est doux et souple ; vieilli un an ou plus, il devient dur, cassant, avec des cristaux croquants et un goût de caramel. Le boerenkaas, gouda fermier au lait cru, est le plus recherché.",
+  "faits": [
+   "Il tient son nom de la ville de Gouda, où il était vendu, et non fabriqué.",
+   "Sur le marché de Gouda, les prix se négociaient en se tapant dans les mains : c'est le « handjeklap »."
+  ],
   "photo": {
    "src": "/photos/gouda.jpg",
    "w": 2100,
@@ -787,7 +1161,11 @@
   "debut": 5,
   "fin": 8,
   "lien": "",
-  "description": "Créé au XIIe siècle par les moines cisterciens de l’abbaye de Chiaravalle, le Grana Padano est un fromage à pâte pressée aujourd’hui fabriqué dans de nombreuses fromageries de la vallée du Pô. C’est le plus gros de tous les fromages AOP.\nLa croûte jaune ou jaune rougeâtre est très épaisse et la pâte est dure, blanche ou couleur paille et friable. Il possède un goût doux et fruité, un arôme parfumé avec des notes beurrées et de fruits secs.",
+  "description": "Le cousin du parmesan, fait dans toute la plaine du Pô avec du lait cru de vache en partie écrémé. Son nom vient de sa pâte granuleuse (grana) et de la plaine du Pô (padano).\n\nSes grandes meules s'affinent au moins neuf mois, et jusqu'à deux ans ou plus. Plus doux et moins friable que le parmigiano reggiano, il se mange en éclats ou râpé.",
+  "faits": [
+   "Il aurait été inventé au XIIe siècle par les moines de l'abbaye de Chiaravalle, près de Milan, pour conserver leurs surplus de lait.",
+   "Seules les meules qui passent un contrôle de qualité reçoivent la marque au fer chaud « Grana Padano »."
+  ],
   "photo": {
    "src": "/photos/grana-padano.jpg",
    "w": 2000,
@@ -809,11 +1187,47 @@
   "debut": 10,
   "fin": 2,
   "lien": "",
-  "description": "Le gruyère est un fromage suisse qui tire son nom de la Gruyère, région du canton de Fribourg, d’où il provient originellement. Il bénéficie d'une appellation d'origine contrôlée suisse depuis le 6 juillet 2001.\nC'est un fromage au lait de vache entier, à pâte pressée cuite, mais au lait cru. Sa meule a une forme ronde et présente une croûte emmorgée, grainée, uniformément brunâtre et saine.",
+  "description": "Le gruyère suisse vient de la région de la Gruyère, dans le canton de Fribourg, et se fait aujourd'hui aussi dans les cantons de Vaud, Neuchâtel et du Jura. Pâte pressée cuite, lait cru de vache, meules de 25 à 40 kilos.\n\nContrairement à ce qu'on croit en France, il n'a presque pas de trous. Affiné de cinq mois à plus d'un an, il passe d'un goût crémeux de noisette à des arômes puissants et une pâte légèrement granuleuse. Le gruyère d'alpage, fait l'été en altitude, est le plus rare.",
+  "faits": [
+   "La confusion entre gruyère et emmental vient du XIXe siècle : des marchands bernois vendaient leur emmental en France en le faisant passer pour du gruyère.",
+   "Le mot « gruyère » est entré dans le dictionnaire de l'Académie française en 1762."
+  ],
   "photo": {
    "src": "/photos/gruyere.jpg",
    "w": 800,
    "h": 514
+  }
+ },
+ {
+  "slug": "idiazabal",
+  "nom": "idiazabal",
+  "pays": [
+   "Espagne"
+  ],
+  "region": "Pays basque",
+  "lait": [
+   "brebis"
+  ],
+  "appellation": "AOP",
+  "annee": "1996",
+  "debut": 4,
+  "fin": 11,
+  "lien": "https://fr.wikipedia.org/wiki/Idiazabal_(fromage)",
+  "description": "Fromage du Pays basque et de Navarre, au lait cru des brebis latxa et carranzana, à pâte pressée non cuite. Il est souvent fumé, à l'origine parce qu'il séchait près du foyer des bergers.\n\nAffiné au moins deux mois, il a un goût franc de lait de brebis. Fait pendant la lactation, de l'hiver à l'été, il est à son meilleur du printemps à l'automne.",
+  "faits": [
+   "Il porte le nom d'un village du Gipuzkoa, au Pays basque.",
+   "On le trouve nature ou fumé au bois de hêtre, de bouleau ou de cerisier, à la fin de l'affinage."
+  ],
+  "photo": {
+   "src": "/photos/idiazabal.jpg",
+   "w": 800,
+   "h": 600,
+   "credit": {
+    "auteur": "Xavigivax",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Queso_Idiaz%C3%A1bal.jpg"
+   }
   }
  },
  {
@@ -831,7 +1245,11 @@
   "debut": 9,
   "fin": 3,
   "lien": "",
-  "description": "Le laguiole est un fromage à pâte pressée non cuite fabriqué exclusivement avec du lait de vache entier et cru. Sa croûte épaisse et sèche est d’une couleur blanchâtre à gris clair qui vire au brun ambré au fur et à mesure de la poursuite de l’affinage, tandis que sa pâte, de couleur ivoire à jaune paille, d’une consistance souple mais ferme, est onctueuse et fondante sous la langue. Sa teneur en matière grasse est de 45%. La durée d’affinage est au minimum de 4 mois.",
+  "description": "Un grand fromage du plateau de l'Aubrac, au lait cru de vache, à pâte pressée non cuite, cousin du cantal. Ses fourmes d'une quarantaine de kilos portent le taureau de Laguiole gravé sur la croûte.\n\nAffiné au moins quatre mois, il a une pâte souple, fruitée, avec une petite acidité. Sa tome fraîche est l'ingrédient de l'aligot.",
+  "faits": [
+   "Il était fabriqué l'été dans les burons, des cabanes de pierre d'estive, où les buronniers vivaient avec le troupeau de mai à octobre.",
+   "Il a failli disparaître au milieu du XXe siècle ; la coopérative Jeune Montagne, fondée par des éleveurs en 1960, l'a sauvé."
+  ],
   "photo": {
    "src": "/photos/laguiole.jpg",
    "w": 1200,
@@ -853,7 +1271,11 @@
   "debut": 5,
   "fin": 12,
   "lien": "",
-  "description": "C'est un fromage à base de lait de vache, à pâte molle à croûte lavée, qui se décline en 3 formats. Sa période de dégustation optimale s'étale de mai à août après un affinage de 15 jours pour les petits formats (150 à 250 g), 18 jours pour les formats moyens (280 à 350 g) et 21 jours pour le format « à la coupe » (800 à 1 300 g), mais il est aussi excellent de mars à décembre. Il est plus doux que l'époisses, son grand concurrent régional. Les amateurs éclairés utilisent son sommet en forme de cuvette comme réceptacle pour mettre un peu de Marc de Bourgogne.",
+  "description": "Un petit fromage du plateau de Langres, en Haute-Marne, au lait de vache, à croûte lavée orangée. Pendant l'affinage, son dessus se creuse et forme une cuvette, la « fontaine ».\n\nSa pâte est souple, un peu crayeuse à cœur, et son goût plus doux que son odeur. On verse parfois un peu de marc de Bourgogne dans la fontaine pour le servir.",
+  "faits": [
+   "Sa couleur orangée vient souvent du rocou, un colorant naturel, et des bactéries de sa croûte.",
+   "Les vaches qui donnent son lait doivent pâturer au moins six mois par an."
+  ],
   "photo": {
    "src": "/photos/langres.jpg",
    "w": 1095,
@@ -875,7 +1297,11 @@
   "debut": 5,
   "fin": 9,
   "lien": "",
-  "description": "Le Livarot appartient à la famille des pâtes molles à croûte lavée. Il est fabriqué à partir de lait de vache.\n\nIl se présente sous la forme d'un cylindre de 12 centimètres de diamètre et de 5 centimètres d'épaisseur. Il contient au moins 230 grammes d'extrait sec pour un poids moyen de 500 grammes et contient au moins 40 % de matière grasse.\nLe Livarot est entouré de trois à cinq bandelettes qui lui valent son surnom de Colonel. En effet, à l'origine, le Livarot avait tendance à s'affaisser lors de l'affinage car il était pauvre en matière grasse. Les bandelettes le ceignaient pour qu'il garde sa forme. Aujourd'hui, même si cette précaution n'est plus indispensable, le Livarot conserve ses galons de laîche ou de papier, de couleur différente pour chaque fromagerie.",
+  "description": "Un fromage du pays d'Auge, en Normandie, au lait de vache, à pâte molle et croûte lavée. Il est cerclé de trois à cinq lanières de massette séchée, parfois de papier.\n\nSa croûte orangée sent fort, mais sa pâte souple est plutôt douce, avec un goût de lait et de fumé. Il était autrefois fait avec du lait écrémé, la crème servant à faire du beurre.",
+  "faits": [
+   "Ses lanières, qui ressemblent aux galons d'un uniforme, lui ont valu le surnom de « colonel ».",
+   "En 1877, on vendait plus de livarots que de camemberts : 4,5 millions contre 2 millions."
+  ],
   "photo": {
    "src": "/photos/livarot.jpg",
    "w": 1200,
@@ -897,11 +1323,47 @@
   "debut": 5,
   "fin": 9,
   "lien": "",
-  "description": "Le Mâconnais est né près des vignes, pour valoriser les «maigres prairies» qui les bordent. C’est un petit fromage qui a la particularité d’être tronconique, puisqu’il est fabriqué dans un moule spécifique et non retourné jusqu’à la fin de la période minimale d’affinage. Obtenu à partir d’un caillé de type lactique et affiné au minimum pendant 10 jours, le Mâconnais a une pâte fine et savoureuse. Sa croûte fleurie est de couleur ivoire, beige ou bleutée. De petite taille, le Mâconnais se déguste volontiers en «snacking», au goûter ou à l’apéritif.",
+  "description": "Un tout petit chèvre du sud de la Bourgogne, autour de Mâcon : un tronc de cône d'environ 4 centimètres de haut, pesant 50 à 65 grammes, au lait cru.\n\nAffiné une dizaine de jours, il a une croûte fine, crème à bleutée, et une pâte dense et fine, au goût de lait et de noisette. Dans la région, il accompagne volontiers un verre de mâcon blanc.",
+  "faits": [
+   "Il tient son nom du Mâconnais, la région de collines et de vignes qui entoure Mâcon."
+  ],
   "photo": {
    "src": "/photos/maconnais.jpg",
    "w": 750,
    "h": 375
+  }
+ },
+ {
+  "slug": "mahon-menorca",
+  "nom": "mahón-menorca",
+  "pays": [
+   "Espagne"
+  ],
+  "region": "Minorque",
+  "lait": [
+   "vache"
+  ],
+  "appellation": "AOP",
+  "annee": "1996",
+  "debut": 1,
+  "fin": 12,
+  "lien": "https://fr.wikipedia.org/wiki/Ma%C3%B3_(fromage)",
+  "description": "Fromage de l'île de Minorque, aux Baléares, fait au lait de vache. Sa forme carrée aux angles arrondis vient du tissu dans lequel on le presse, et sa croûte est frottée à l'huile et au paprika.\n\nOn le trouve tendre, demi-affiné ou vieux, de plus en plus sec et piquant. Il se mange toute l'année.",
+  "faits": [
+   "Sa forme carrée aux coins arrondis vient du torchon, le « fogasser », dont on noue les quatre coins pour le presser ; le nœud laisse une marque sur le dessus.",
+   "Sa croûte orange est frottée d'huile d'olive ou de beurre mélangé à du paprika.",
+   "Au XVIIIe siècle, des bateaux entiers partaient chaque jour de Mahón pour porter ce fromage vers les ports de la Méditerranée."
+  ],
+  "photo": {
+   "src": "/photos/mahon-menorca.jpg",
+   "w": 800,
+   "h": 623,
+   "credit": {
+    "auteur": "Slastic",
+    "licence": "Public domain",
+    "licenceUrl": null,
+    "source": "https://commons.wikimedia.org/wiki/File:Formatge_Ma%C3%B3_artes%C3%A0.jpg"
+   }
   }
  },
  {
@@ -910,16 +1372,21 @@
   "pays": [
    "Espagne"
   ],
-  "region": "Castille",
+  "region": "Castille-La Manche",
   "lait": [
-   "vache"
+   "brebis"
   ],
   "appellation": "AOP",
   "annee": "1996",
   "debut": 9,
   "fin": 1,
   "lien": "",
-  "description": "Le Manchego est un fromage à pâte ferme au lait pasteurisé de brebis. Goût délicat aux arômes de beurre et caramel. Espagne.",
+  "description": "Le grand fromage de brebis d'Espagne, fait dans la Manche avec le lait des brebis de race manchega, cru ou pasteurisé. Il s'affine de deux mois à deux ans.\n\nSa pâte ferme, ivoire, parsemée de petits trous, a un goût de brebis net, beurré, légèrement piquant en vieillissant. On le reconnaît au motif en zigzag de sa croûte, imprimé par le moule.",
+  "faits": [
+   "Son motif en zigzag imite la marque des paniers en sparte tressé dans lesquels on pressait autrefois le caillé.",
+   "Son étiquette officielle représente Don Quichotte, le héros de la Manche.",
+   "On fabriquait déjà du fromage dans la Manche à l'âge du bronze."
+  ],
   "photo": {
    "src": "/photos/manchego.jpg",
    "w": 700,
@@ -941,7 +1408,12 @@
   "debut": 7,
   "fin": 3,
   "lien": "",
-  "description": "Le Maroilles est un fromage au lait cru de vache, à pâte molle et à croûte lavée rouge orangé. D’une forme carrée, sa teneur minimale en matière grasse est de 45 % et le poids total de matière sèche doit être supérieur à 360 grammes par fromage.",
+  "description": "Le grand fromage du Nord, fait en Thiérache, dans le Nord et l'Aisne, avec du lait de vache. Carré, à pâte molle et croûte lavée, il est brossé et lavé à l'eau salée pendant plusieurs semaines.\n\nSa croûte orange brique, légèrement humide, sent fort ; sa pâte est souple, onctueuse, avec un goût puissant mais plus doux que son odeur. On le mange aussi chaud, en flamiche ou en tarte.",
+  "faits": [
+   "Selon la tradition, il serait né vers l'an 960 à l'abbaye de Maroilles, et il servait à payer la dîme.",
+   "Il existe en quatre tailles : le maroilles, le sorbais (trois quarts), le mignon (moitié) et le quart.",
+   "Après la sortie de Bienvenue chez les Ch'tis, ses ventes ont augmenté de 25 % entre 2008 et 2010."
+  ],
   "photo": {
    "src": "/photos/maroilles.jpg",
    "w": 800,
@@ -963,7 +1435,11 @@
   "debut": 1,
   "fin": 12,
   "lien": "",
-  "description": "Le mascarpone est un fromage italien, originaire des régions de Piémont-Lombardie.\nIngrédient de choix de la cuisine italienne, il entre dans la composition de nombreuses recettes de cuisine et particulièrement dans les desserts, dont le célèbre tiramisu.\nC'est un fromage gras à base de crème, à pâte fraîche.\nÀ l'origine, le mascarpone provient du lait de bufflonne, mais on retrouve aussi sur le marché un mascarpone au lait de vache.",
+  "description": "Une crème caillée lombarde plus qu'un vrai fromage : on chauffe de la crème de lait de vache, on la fait coaguler avec un acide (citron, vinaigre ou acide tartrique), puis on l'égoutte dans une toile.\n\nTrès riche, blanc crème, il a un goût doux et lacté. C'est l'ingrédient du tiramisu, mais aussi de nombreuses sauces et desserts italiens. Il se garde peu de temps.",
+  "faits": [
+   "Techniquement, ce n'est pas un fromage : il est fait sans présure et sans affinage.",
+   "Son nom viendrait de « mascarpa », un mot lombard qui désignait un produit laitier proche de la ricotta."
+  ],
   "photo": {
    "src": "/photos/mascarpone.jpg",
    "w": 1000,
@@ -985,7 +1461,12 @@
   "debut": 4,
   "fin": 9,
   "lien": "",
-  "description": "La mimolette, appelée aussi « vieux Hollande » ou « boule de Lille », est un fromage traditionnellement produit dans le Nord de la France d'où elle est originaire, dans la région de Lille.\nC'est un fromage à base de lait de vache, à pâte pressée non cuite, d'une masse moyenne de 2 kg. Sa croûte est grisâtre et sa chair orangée. Son nom « mimolette » viendrait d'une déformation de « mollet », la pâte de la mimolette jeune étant assez souple. Avec l'âge, elle devient de plus en plus cassante.\nLa mimolette est dite « jeune » en dessous de 6 mois d'affinage, « mi-vieille » de 6 à 12 mois d'affinage, « vieille » de 12 à 18 mois d'affinage, et « extra-vieille » au delà de 18 mois d'affinage.",
+  "description": "Une grosse boule orange, née dans la région de Lille sur le modèle de l'édam hollandais. Sa pâte pressée, au lait de vache, est colorée au rocou, une graine d'Amérique du Sud.\n\nJeune, elle est douce et « mi-molle » ; vieillie un an ou plus, elle devient dure et cassante, avec un goût de noisette. Sa croûte grise et rugueuse est travaillée par des cirons, de minuscules acariens qui l'aèrent.",
+  "faits": [
+   "Elle serait née sous Louis XIV : Colbert avait interdit l'importation de fromages étrangers, et les Flamands ont recréé l'édam qu'ils aimaient, en orange pour le distinguer.",
+   "De 2013 à 2014, les États-Unis ont bloqué son importation à cause des cirons de sa croûte.",
+   "On la dit le fromage préféré du général de Gaulle."
+  ],
   "photo": {
    "src": "/photos/mimolette.jpg",
    "w": 998,
@@ -996,19 +1477,22 @@
   "slug": "mont-d-or",
   "nom": "mont-d'or",
   "pays": [
-   "France",
-   "Suisse"
+   "France"
   ],
-  "region": "Doubs, Canton de Vaud",
+  "region": "Haut-Doubs",
   "lait": [
    "vache"
   ],
   "appellation": "AOC",
-  "annee": "1983",
-  "debut": 11,
-  "fin": 2,
+  "annee": "1981",
+  "debut": 9,
+  "fin": 4,
   "lien": "",
-  "description": "Dès le retour des vacances d’été, les amateurs de Mont d’Or l’attendent avec impatience : ce fromage au lait de vache appelé aussi Vacherin du Haut Doubs, a la particularité d’être un fromage saisonnier, vendu de la mi-septembre à la mi-mai. Présenté dans sa boîte en épicéa, sa croûte plissant à la manière de ses montagnes qui l’ont vu naître et grandir, il est la star à table. Sa pâte, onctueuse et fondante, peut être dégustée à la petite cuillère. Mis au four, arrosé de vin blanc et relevé avec un peu d’ail, la « boîte chaude » accompagnée de pommes de terre et d’une salade verte, constitue un repas simple et délicieux.",
+  "description": "Le mont-d'or, ou vacherin du Haut-Doubs, est fait côté français du massif du Jura, avec du lait cru de vache. Il est cerclé d'une sangle d'écorce d'épicéa et vendu dans sa boîte en épicéa.\n\nIl n'est fabriqué que de la mi-août à la mi-mars, quand les vaches redescendent des alpages et donnent trop peu de lait pour faire du comté. Sa pâte coulante se mange à la cuillère ; chaud, au four avec un peu de vin blanc, c'est la « boîte chaude ».",
+  "faits": [
+   "Sa sangle d'épicéa, prélevée sous l'écorce par des « sangliers », servait à tenir ce fromage trop coulant ; elle le parfume aussi.",
+   "On le vend du 10 septembre au 10 mai seulement."
+  ],
   "photo": {
    "src": "/photos/mont-d-or.jpg",
    "w": 1000,
@@ -1030,11 +1514,48 @@
   "debut": 1,
   "fin": 3,
   "lien": "",
-  "description": "Morbier est une appellation d'origine désignant un fromage de lait cru de vache, fabriqué dans le massif du Jura en France, et qui tient son nom du bourg jurassien de Morbier. \nC'est un fromage à pâte pressée non cuite.",
+  "description": "Un fromage du massif du Jura, au lait cru de vache, à pâte pressée non cuite, reconnaissable à la fine raie noire qui le traverse en son milieu.\n\nSa pâte souple et fondante a un goût de lait et de fruit, parfois de foin. Affiné au moins 45 jours, il est doux jeune et plus marqué en vieillissant.",
+  "faits": [
+   "Sa raie noire est née d'une astuce : le soir, on protégeait le caillé avec de la suie du chaudron, puis on complétait la meule avec le caillé du matin.",
+   "Les paysans le faisaient pour eux-mêmes, avec le lait qui restait une fois les comtés fabriqués.",
+   "La suie a été remplacée par du charbon végétal."
+  ],
   "photo": {
    "src": "/photos/morbier.jpg",
    "w": 1000,
    "h": 513
+  }
+ },
+ {
+  "slug": "mothais-sur-feuille",
+  "nom": "mothais sur feuille",
+  "pays": [
+   "France"
+  ],
+  "region": "Poitou",
+  "lait": [
+   "chèvre"
+  ],
+  "appellation": "AOC",
+  "annee": "2024",
+  "debut": 4,
+  "fin": 11,
+  "lien": "https://fr.wikipedia.org/wiki/Mothais_sur_feuille",
+  "description": "Petit fromage de chèvre au lait cru du sud des Deux-Sèvres et des départements voisins, qui tient son nom de La Mothe-Saint-Héray. Il est affiné sur une feuille de châtaignier qui garde son humidité et lui donne une pâte fondante sous une fine croûte.\n\nVendu sur les marchés depuis le XIXe siècle, il a obtenu son appellation d'origine en novembre 2024. Il se déguste du printemps à la fin de l'automne.",
+  "faits": [
+   "Il s'affine posé sur une feuille de châtaignier ou de platane, qui absorbe l'humidité et lui donne une pâte plus crémeuse.",
+   "On le trouve sur les marchés du Poitou depuis au moins 1840."
+  ],
+  "photo": {
+   "src": "/photos/mothais-sur-feuille.jpg",
+   "w": 800,
+   "h": 600,
+   "credit": {
+    "auteur": "Myrabella",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mothais_sur_feuille.jpg"
+   }
   }
  },
  {
@@ -1045,7 +1566,6 @@
   ],
   "region": "Campanie",
   "lait": [
-   "vache",
    "bufflonne"
   ],
   "appellation": "AOP",
@@ -1053,7 +1573,11 @@
   "debut": 1,
   "fin": 12,
   "lien": "",
-  "description": "La mozzarella di bufala Campana est l'appellation d'origine d'un fromage à pâte filée élaboré en Campanie, et particulièrement dans les provinces de Caserte et de Salerne, dans le sud de Rome, et en partie dans les Pouilles et le Molise en Italie. Ce fromage est fait à partir de lait de bufflonnes.\nL'appellation mozzarella vient de l'opération dite de mozzatura, c'est-à-dire de séparation du caillé en petites boules.",
+  "description": "La mozzarella d'appellation, faite uniquement avec du lait de bufflonne, en Campanie surtout (autour de Caserte et de Salerne), et dans quelques zones du Latium, des Pouilles et du Molise.\n\nLe caillé est plongé dans l'eau chaude, étiré et pétri en pâte filée, puis découpé à la main en boules. Blanche, élastique, elle laisse couler un peu de lait quand on la coupe, avec un goût frais et légèrement acidulé. Elle se mange le jour même, à température ambiante.",
+  "faits": [
+   "Son nom vient de la « mozzatura », le geste qui consiste à séparer la pâte filée en petites boules.",
+   "Les Italiens la surnomment l'« or blanc »."
+  ],
   "photo": {
    "src": "/photos/mozzarella-di-bufala.jpg",
    "w": 800,
@@ -1075,7 +1599,12 @@
   "debut": 5,
   "fin": 10,
   "lien": "https://fr.wikipedia.org/wiki/Munster_(fromage)",
-  "description": "La période de consommation idéale du munster s'étale de mai à octobre après un affinage de 21 jours minimum, mais aussi d'avril à décembre.\n\nSon odeur est forte, mais avec un goût doux. Sa consommation peut être associée au carvi (cumin des prés). S’agissant des vins, Il s'accorde avec le riesling et surtout avec le gewurztraminer (notamment avec les vendanges tardives ou grains nobles).\n\nLe munster peut être utilisé pour la consommation à la « raclette », ou comme ingrédient dans des tartes, des quiches ou des flammekueches.",
+  "description": "Un fromage des Vosges, au lait de vache, à pâte molle et croûte lavée, fabriqué sur les versants alsacien et lorrain du massif. Côté lorrain, on l'appelait géromé, d'où son nom officiel de munster-géromé.\n\nSa croûte orangée, lavée à l'eau salée pendant l'affinage, sent très fort, mais sa pâte souple est douce et fondante. On le mange avec des pommes de terre en robe des champs et une pincée de carvi, le cumin des prés.",
+  "faits": [
+   "Son nom vient du latin monasterium : des moines bénédictins fondèrent au VIIe siècle un monastère dans la vallée de la Fecht, autour duquel est née la ville de Munster.",
+   "« Géromé » est une déformation de Gérardmer, la ville lorraine où il se vendait lors des foires.",
+   "Jusqu'à la fin du XVIIIe siècle, les paysans lorrains payaient une partie de leurs impôts en fromage."
+  ],
   "photo": {
    "src": "/photos/munster.jpg",
    "w": 1500,
@@ -1097,7 +1626,11 @@
   "debut": 4,
   "fin": 7,
   "lien": "",
-  "description": "Le Grand Murol ou simplement Murol, créé par Jacques Bérioux dans les années 1900, est un fromage français de la région Auvergne.\nC'est un fromage à base de lait de vache, à pâte pressée non cuite, d'un poids moyen de 450 grammes.\nLe Grand Murols est un fromage de fabrication voisine au Saint-Nectaire dans lequel un trou à l'emporte pièce a été extrait (le murolait). Sa période de dégustation optimale s'étale d'avril à juillet après un affinage de 5 à 6 semaines, mais il est aussi excellent de mars à octobre. Son goût rappelle le Saint-nectaire laitier. L'affinage dure un mois.",
+  "description": "Une couronne de fromage auvergnat : une petite meule de 450 grammes au lait de vache, à pâte pressée non cuite, percée en son centre d'un trou de 3 centimètres.\n\nDe la famille du saint-nectaire, il a une pâte souple et douce, au goût de lait.",
+  "faits": [
+   "Il a été créé dans les années 1920-1930 par Jacques Bérioux, sur le modèle du saint-nectaire.",
+   "Le petit cylindre retiré au centre devient un autre fromage, le « murolait », enrobé de paraffine rouge."
+  ],
   "photo": {
    "src": "/photos/murol-du-grand-berioux.jpg",
    "w": 1280,
@@ -1119,11 +1652,48 @@
   "debut": 5,
   "fin": 8,
   "lien": "",
-  "description": "Le neufchâtel est un fromage français fabriqué dans le pays de Bray1 et plus particulièrement aux alentours de Neufchâtel-en-Bray\nLa forme en cœur est typique de ce fromage mais les formes en briquette, bonde, double bonde, carré et triple-cœur sont également enregistrées dans le cahier des charges de la protection2.\nLa race des vaches et leur alimentation (pâturage au moins 6 mois par an), ainsi que la fabrication du fromage sont définies dans le décret de l'appellation3.\nC'est un fromage lactique à base de lait de vache mis en œuvre majoritairement cru, à pâte molle à croûte fleurie, affiné au moins 10 jours, d'un poids de 100 à 600 g selon le format.\nSa période de consommation idéale s'étale d'avril à août.",
+  "description": "L'un des plus vieux fromages de Normandie, fabriqué dans le pays de Bray avec du lait de vache, en grande partie cru. Il est surtout connu en forme de cœur, mais existe aussi en bonde, en carré ou en briquette.\n\nSa croûte blanche duveteuse enveloppe une pâte un peu granuleuse, plus salée et plus vive que celle du camembert. Il s'affine au moins dix jours.",
+  "faits": [
+   "Selon une légende, pendant la guerre de Cent Ans, les jeunes filles du pays de Bray offraient des fromages en forme de cœur aux soldats anglais pour leur déclarer leur flamme.",
+   "On le fabriquait probablement déjà au VIe siècle."
+  ],
   "photo": {
    "src": "/photos/neufchatel.jpg",
    "w": 1200,
    "h": 614
+  }
+ },
+ {
+  "slug": "niolo",
+  "nom": "niolo",
+  "pays": [
+   "France"
+  ],
+  "region": "Corse",
+  "lait": [
+   "brebis",
+   "chèvre"
+  ],
+  "appellation": "",
+  "annee": "",
+  "debut": 4,
+  "fin": 9,
+  "lien": "https://fr.wikipedia.org/wiki/Niolo_(fromage)",
+  "description": "Fromage de bergers de la haute vallée du Golo, au cœur de la Corse, fait au lait de brebis ou de chèvre. Ce pavé de 500 à 700 grammes est affiné trois à quatre mois en cave humide.\n\nSa pâte collante va de douce à franchement forte selon l'affinage, avec des notes animales et épicées. Sa meilleure période va d'avril à septembre, pendant la transhumance.",
+  "faits": [
+   "Il porte le nom de la haute vallée du Golo, berceau des bergers corses, qui menaient leurs troupeaux vers la côte l'hiver et vers les estives l'été.",
+   "On le sale à sec, puis on le serre avec d'autres dans une auge en bois : c'est ce qui lui donne sa forme carrée."
+  ],
+  "photo": {
+   "src": "/photos/niolo.jpg",
+   "w": 800,
+   "h": 600,
+   "credit": {
+    "auteur": "Pierre Bona",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fromage_du_Niolu.jpg"
+   }
   }
  },
  {
@@ -1141,11 +1711,48 @@
   "debut": 6,
   "fin": 11,
   "lien": "",
-  "description": "Ossau-iraty est une appellation d'origine désignant un fromage français de lait de brebis à pâte pressée non cuite fabriqué dans le Pays basque français et le Béarn.",
+  "description": "Le fromage de brebis du Pays basque et du Béarn, au lait des brebis manech à tête rousse, manech à tête noire et basco-béarnaises. Sa grosse meule, de 2 à 7 kilos, à pâte pressée non cuite, s'affine au moins 80 jours, ou 120 jours pour les grands formats.\n\nSa pâte ivoire, fondante, a un goût de noisette et de lait de brebis. Au Pays basque, on le sert avec de la confiture de cerises noires.",
+  "faits": [
+   "Son nom réunit les deux extrémités de sa zone : le pic du Midi d'Ossau, en Béarn, et la forêt d'Iraty, au Pays basque, l'une des plus grandes hêtraies d'Europe.",
+   "Le poète latin Martial mentionnait déjà des fromages de brebis pyrénéens vendus sur le marché de Toulouse."
+  ],
   "photo": {
    "src": "/photos/ossau-iraty.jpg",
    "w": 1500,
    "h": 751
+  }
+ },
+ {
+  "slug": "parmigiano-reggiano",
+  "nom": "parmigiano reggiano",
+  "pays": [
+   "Italie"
+  ],
+  "region": "Émilie-Romagne",
+  "lait": [
+   "vache"
+  ],
+  "appellation": "AOP",
+  "annee": "1996",
+  "debut": 1,
+  "fin": 12,
+  "lien": "https://fr.wikipedia.org/wiki/Parmigiano_Reggiano",
+  "description": "Le parmesan, grand fromage à pâte pressée cuite d'Émilie-Romagne, fait sans aucun additif avec du lait cru de vaches nourries à l'herbe et au foin. Il est affiné au moins douze mois, souvent deux ou trois ans.\n\nSa pâte granuleuse, parsemée de cristaux, gagne en arômes avec l'âge. Grâce à ce long affinage, on le déguste toute l'année, à la coupe ou râpé.",
+  "faits": [
+   "Il faut environ 550 litres de lait pour une meule de près de 40 kilos.",
+   "Depuis 2008, la Cour de justice européenne considère que « parmesan » est protégé lui aussi : seul le parmigiano reggiano peut porter ce nom dans l'UE.",
+   "Dans le Décaméron, en 1348, Boccace imagine une montagne de parmesan râpé dont les habitants ne font que cuire des macaronis et des raviolis."
+  ],
+  "photo": {
+   "src": "/photos/parmigiano-reggiano.jpg",
+   "w": 777,
+   "h": 800,
+   "credit": {
+    "auteur": "Naturpuur",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Parmigiano_Reggiano,_Italien,_Europ%C3%A4ische_Union.jpg"
+   }
   }
  },
  {
@@ -1154,7 +1761,7 @@
   "pays": [
    "Italie"
   ],
-  "region": "Latium",
+  "region": "Sardaigne, Latium, Toscane",
   "lait": [
    "brebis"
   ],
@@ -1163,11 +1770,47 @@
   "debut": 5,
   "fin": 9,
   "lien": "",
-  "description": "Le Pecorino Romano est un fromage traditionnel à base de lait entier de brebis, à pâte pressée cuite, provenant du territoire des régions de la Sardaigne, du Latium et de la\nprovince de Grosseto.\nDepuis le 12 juin 1996, la dénomination « Pecorino Romano » est protégée au niveau européen par une appellation d'origine protégée(AOP).",
+  "description": "L'un des plus vieux fromages d'Italie : une grosse meule de lait entier de brebis, à pâte pressée cuite, très salée. Né dans la campagne romaine, il est aujourd'hui fait surtout en Sardaigne, mais aussi dans le Latium et autour de Grosseto.\n\nAffiné au moins cinq mois, il a une pâte dure, blanche, au goût salé et piquant. C'est le fromage râpé des pâtes romaines : cacio e pepe, carbonara, amatriciana.",
+  "faits": [
+   "Il faisait partie de la ration des légionnaires romains : environ 27 grammes par jour, avec le pain et la soupe d'épeautre.",
+   "Le 1er mai, les familles romaines le mangent traditionnellement avec des fèves crues, en pique-nique dans la campagne."
+  ],
   "photo": {
    "src": "/photos/pecorino-romano.jpg",
    "w": 800,
    "h": 419
+  }
+ },
+ {
+  "slug": "pecorino-toscano",
+  "nom": "pecorino toscano",
+  "pays": [
+   "Italie"
+  ],
+  "region": "Toscane",
+  "lait": [
+   "brebis"
+  ],
+  "appellation": "AOP",
+  "annee": "1996",
+  "debut": 4,
+  "fin": 10,
+  "lien": "https://fr.wikipedia.org/wiki/Pecorino_toscano",
+  "description": "Fromage de lait entier de brebis de Toscane, d'Ombrie et du Latium, vendu jeune et tendre ou affiné et plus ferme. Plus doux que le pecorino romano, il a un goût de lait et de noisette.\n\nOn l'appelait autrefois cacio marzolino, car sa fabrication commençait en mars avec le retour des brebis à l'herbe. Il est à son meilleur du printemps à l'automne.",
+  "faits": [
+   "On l'appelait autrefois « marzolino », parce que sa fabrication commençait en mars.",
+   "En 1475, l'humaniste Platina écrivait que deux fromages se disputaient la première place en Italie : le marzolino toscan et le parmesan."
+  ],
+  "photo": {
+   "src": "/photos/pecorino-toscano.jpg",
+   "w": 800,
+   "h": 600,
+   "credit": {
+    "auteur": "Bijltjespad",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pecorino_Toscano_DOP.JPG"
+   }
   }
  },
  {
@@ -1181,15 +1824,51 @@
    "chèvre"
   ],
   "appellation": "AOP",
-  "annee": "2001",
+  "annee": "2000",
   "debut": 5,
   "fin": 9,
   "lien": "",
-  "description": "Le Pélardon est un fromage à pâte molle, obtenu par coagulation lente, essentiellement lactique.\nC’est un fromage au lait cru et entier de chèvre.\nSa forme est celle d’un petit palet à bords arrondis. L’affinage doit être de 11 jours minimum à compter de l’emprésurage.\nLa croûte d’un pélardon est fine, jaune pâle, blanche ou bleue.\nLa pâte est de couleur blanche à ivoire, de texture homogène et d’aspect lisse à la coupe; elle peut être cassante après un affinage prolongé.",
+  "description": "Un petit palet de chèvre des Cévennes, au lait cru et entier, d'environ 60 grammes. On le fabrique dans le Gard, la Lozère, l'Hérault et l'Aude.\n\nFrais, il est doux et crémeux ; affiné, sa croûte se couvre de fleur blanche ou bleue et sa pâte devient plus sèche, avec un goût de noisette et une pointe piquante.",
+  "faits": [
+   "Son nom viendrait de l'occitan « pebre », le poivre, à cause de son goût piquant.",
+   "Un dictionnaire languedocien le décrit déjà en 1756 : un petit fromage rond et plat des Cévennes, au goût piquant et poivré."
+  ],
   "photo": {
    "src": "/photos/pelardon.jpg",
    "w": 800,
    "h": 400
+  }
+ },
+ {
+  "slug": "perail",
+  "nom": "pérail",
+  "pays": [
+   "France"
+  ],
+  "region": "Aveyron",
+  "lait": [
+   "brebis"
+  ],
+  "appellation": "IGP",
+  "annee": "2025",
+  "debut": 3,
+  "fin": 8,
+  "lien": "https://fr.wikipedia.org/wiki/P%C3%A9rail",
+  "description": "Petit fromage rond de lait de brebis Lacaune, du sud de l'Aveyron et du Larzac, à pâte molle et fine croûte fleurie. Les familles le fabriquaient avec le lait qui ne suffisait pas à faire du roquefort, en début et en fin de saison de traite.\n\nDoux et crémeux, il est meilleur au printemps et en été, pendant la lactation des brebis. Il est protégé par une indication géographique depuis 2025.",
+  "faits": [
+   "Il était fait avec le lait des brebis en fin de saison, quand il n'y en avait plus assez pour les gros fromages vendus aux caves de Roquefort.",
+   "Son nom vient du languedocien « peral », d'origine incertaine."
+  ],
+  "photo": {
+   "src": "/photos/perail.jpg",
+   "w": 800,
+   "h": 600,
+   "credit": {
+    "auteur": "Benoît Prieur",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Cheese_P%C3%A9rail.jpg"
+   }
   }
  },
  {
@@ -1207,7 +1886,11 @@
   "debut": 5,
   "fin": 1,
   "lien": "",
-  "description": "Picodon est l'appellation d'origine d'un fromage au lait cru de chèvre à pâte molle et à croûte naturelle produit dans un vaste territoire constitué par les Cévennes ardéchoises, une partie de la vallée du Rhône et les Préalpes drômoises en France. Il pèse environ 60 grammes et a la forme d'un disque plat aux bords arrondis.",
+  "description": "Un petit chèvre de l'Ardèche et de la Drôme, au lait cru et entier : un disque plat d'environ 60 grammes, à croûte naturelle.\n\nJeune, il est doux et frais ; en s'affinant, il peut perdre la moitié de son poids, sa croûte se dore et sa pâte devient sèche et piquante. Le picodon « affiné méthode Dieulefit » est lavé et affiné au moins un mois.",
+  "faits": [
+   "Son nom vient de l'occitan « picaudou », le petit piquant.",
+   "Vers 1890, un train surnommé « le train du picodon » reliait Dieulefit et Montélimar."
+  ],
   "photo": {
    "src": "/photos/picodon.jpg",
    "w": 1200,
@@ -1229,7 +1912,11 @@
   "debut": 6,
   "fin": 3,
   "lien": "",
-  "description": "Le pont-l’évêque est un fromage français de lait de vache produit et affiné sur le territoire de l'ancienne Normandie historique.\nC'est un fromage à base de lait de vache cru ou pasteurisé, à pâte molle à croûte lavée de couleur beige ou orangée, et de forme carrée. Son poids moyen est de 420 grammes.",
+  "description": "Probablement le plus ancien fromage de Normandie encore fabriqué. Carré, au lait de vache, à pâte molle et croûte lavée, il vient du pays d'Auge.\n\nSa croûte dorée à orangée cache une pâte souple et crémeuse, au parfum marqué mais au goût doux, avec des notes de lait frais et de noisette. Il s'affine au moins deux semaines, souvent plus de six.",
+  "faits": [
+   "Au Moyen Âge, on l'appelait « angelot » ; il ne prit le nom de la ville où il était vendu qu'au XVIIe siècle.",
+   "En 1622, le poète Hélie le Cordier lui consacra un poème : « jeune ou vieux, il n'est que crème »."
+  ],
   "photo": {
    "src": "/photos/pont-l-eveque.jpg",
    "w": 800,
@@ -1251,7 +1938,11 @@
   "debut": 6,
   "fin": 10,
   "lien": "https://androuet.com/Pouligny-Saint-Pierre-65.html",
-  "description": "Le pouligny-saint-pierre est un fromage au lait cru de chèvre, à la fois à pâte molle à croûte naturelle et à pâte molle à croûte fleurie. Il est obtenu par coagulation lactique2 avec une faible addition de présure. Sa pâte est molle, salée, à moisissures superficielles. Sa teneur en matière grasse est supérieure à 45 % de la matière sèche, l'extrait sec est supérieur à 90 g par fromage",
+  "description": "Une pyramide de chèvre au lait cru, de l'Indre, dans le Berry, d'environ 250 grammes. Sa croûte fine, ivoire puis bleutée, recouvre une pâte blanche, fine et un peu friable.\n\nSon goût est d'abord acidulé, puis doux et légèrement salé, avec des notes de foin. L'étiquette est verte pour les fromages fermiers et rouge pour ceux de laiterie.",
+  "faits": [
+   "On le surnomme « la tour Eiffel » ou « la pyramide ». La tradition dit que sa forme imite le clocher de l'église de Pouligny-Saint-Pierre.",
+   "C'est la plus ancienne appellation d'origine pour un fromage de chèvre en France, et l'une des plus petites zones de production : 22 communes."
+  ],
   "photo": {
    "src": "/photos/pouligny-saint-pierre.jpg",
    "w": 1200,
@@ -1260,11 +1951,11 @@
  },
  {
   "slug": "provolone",
-  "nom": "provolone",
+  "nom": "provolone valpadana",
   "pays": [
    "Italie"
   ],
-  "region": "Piémont, Lombardie, Vénétie",
+  "region": "Lombardie, Vénétie, Émilie-Romagne",
   "lait": [
    "vache"
   ],
@@ -1273,7 +1964,10 @@
   "debut": 6,
   "fin": 10,
   "lien": "",
-  "description": "Le provolone piquant (en italien : provolone piccante) est un fromage italien originaire du sud du pays, mais surtout produit dans les régions du Nord (Piémont, Lombardie, et Vénétie).\nEn Italie, on distingue le provolone doux (provolone dolce) qui a un affinage d'au moins 4 mois du provolone piquant (provolone piccante) qui a un affinage d'au moins 16 mois.\nIl prend des formes parfois originales, en poire, en cône tronqué, en grappes ou en « saucisson ».\nC'est un fromage à base de lait de vache, à pâte pressée non cuite, d'un poids moyen de 5 kg, qui prend du piquant à l'affinage. Ce piquant est généralement dû à l'utilisation de présure de chevreau. Il existe aussi un provolone doux, pour lequel on utilise de la présure de veau.",
+  "description": "Le provolone valpadana est un fromage à pâte filée au lait entier de vache, fait dans la plaine du Pô, en Lombardie, en Vénétie, en Émilie-Romagne et dans le Trentin.\n\nOn le moule en saucisson, en melon, en poire ou en cône, puis on le suspend par des cordes pour l'affiner. Le dolce, caillé à la présure de veau, est doux ; le piccante, caillé à la présure de chevreau ou d'agneau et affiné plus longtemps, est piquant.",
+  "faits": [
+   "Les fromages à pâte filée viennent du sud de l'Italie : leur fabrication est remontée vers la plaine du Pô à la fin du XIXe siècle, où le lait de vache était plus abondant."
+  ],
   "photo": {
    "src": "/photos/provolone.jpg",
    "w": 2100,
@@ -1282,7 +1976,7 @@
  },
  {
   "slug": "raclette",
-  "nom": "Raclette",
+  "nom": "raclette du Valais",
   "pays": [
    "Suisse"
   ],
@@ -1294,8 +1988,12 @@
   "annee": "2003",
   "debut": 11,
   "fin": 4,
-  "lien": "https://www.inao.gouv.fr/Nos-actualites/La-Raclette-de-Savoie-obtient-l-IGP",
-  "description": "Le raclette (au masculin) est un fromage à base de lait cru de vache, à pâte pressée non cuite d'origine du canton du Valais en Suisse. Il est notamment utilisé pour la préparation de la raclette. Des fromages à raclette au lait cru ou de type pasteurisé sont aujourd'hui fabriqués dans de nombreuses régions de Suisse, en France dans les régions d'Auvergne, de Savoie, de Franche-Comté et de Bretagne, au Québec et en Australie.\n\nSa période de dégustation optimale s'étale de novembre à février après un affinage de 3 à 6 mois de la tome d'un poids moyen de 6 kg. Il est proposé en de nombreuses variantes, au vin blanc, fumé, au poivre ou encore aux herbes.",
+  "lien": "https://fr.wikipedia.org/wiki/Raclette_(fromage)",
+  "description": "Le fromage à raclette d'origine vient du Valais, en Suisse. La Raclette du Valais AOP est faite au lait cru de vache, à pâte pressée non cuite, en meules d'environ 6 kilos.\n\nSa pâte souple fond sans se séparer, avec un goût lacté et fruité. On la mange chauffée devant le feu ou sous l'appareil, raclée sur des pommes de terre en robe des champs avec des cornichons et des oignons au vinaigre. Elle se mange aussi telle quelle.",
+  "faits": [
+   "Son nom vient du verbe « racler » : on fait fondre la face coupée d'une demi-meule et on la racle directement dans l'assiette.",
+   "En 2003, son AOP protégeait aussi le mot « raclette » seul. En 2007, le Tribunal fédéral suisse a levé cette protection : la raclette est un plat, pas seulement un fromage."
+  ],
   "photo": {
    "src": "/photos/raclette.jpg",
    "w": 1200,
@@ -1317,7 +2015,11 @@
   "debut": 5,
   "fin": 9,
   "lien": "",
-  "description": "Le reblochon est un fromage au lait cru et entier de vache à pâte pressée cuite et croûte lavée, fabriqué à partir du lait cru de races bovines montagnardes Abondance, Tarine et Montbéliarde. En forme de cylindre plat, il mesure environ 14 centimètres de diamètre et 3,6 centimètres de haut, et pèse entre 450 et 550 grammes en moyenne. Sa croûte est jaune-orangé, recouverte d'une fine « mousse blanche » témoignant d'un bon affinage en cave fraîche. La croûte peut être colorée artificiellement avec du carotène ou du rocou.",
+  "description": "Le fromage de la vallée de Thônes, dans les Aravis, en Haute-Savoie : une petite meule de lait cru de vache, à pâte pressée non cuite et croûte lavée, d'environ 450 grammes.\n\nSa croûte jaune orangé, couverte d'une fine mousse blanche, protège une pâte souple et fondante, au goût de noisette. C'est l'ingrédient de la tartiflette. Le reblochon fermier, fait deux fois par jour juste après la traite, porte une pastille verte ; celui de laiterie, une pastille rouge.",
+  "faits": [
+   "Son nom vient du savoyard « re-blocher », pincer à nouveau le pis de la vache. Selon la tradition, les paysans ne trayaient pas complètement leurs vaches devant le propriétaire, qui taxait la traite, puis faisaient une seconde traite, plus riche, pour leur propre fromage.",
+   "On l'appelait aussi « fromage de dévotion » : les paysans en offraient aux chartreux qui venaient bénir leurs chalets."
+  ],
   "photo": {
    "src": "/photos/reblochon.jpg",
    "w": 1200,
@@ -1330,7 +2032,7 @@
   "pays": [
    "Italie"
   ],
-  "region": "Piémont, Lombardie",
+  "region": "toute l'Italie",
   "lait": [
    "vache",
    "brebis",
@@ -1342,7 +2044,11 @@
   "debut": 6,
   "fin": 9,
   "lien": "",
-  "description": "Fabriquée indifféremment au lait de vache, de brebis ou de chèvre, voire même de bufflonne , la Ricotta est, comme son nom l’indique, une « recuite ». En clair, elle est fabriquée dans un deuxième temps, après la fabrication d’un premier fromage, un parmesan par exemple. Le petit-lait qui reste dans la cuve contient encore des protéines. C’est en les agrégeant, en les portant à très forte température (plus de 80°C) , que le fromager va parvenir à créer un nouveau fromage. Ainsi, dans sa version traditionnelle, elle est très peu calorique et présente une texture granuleuse et une saveur acidulée assez douce. Mais certains fromagers l’enrichissent en lait ou crème pour qu’elle soit plus riche et plus onctueuse. Elle est le plus souvent moulée dans des moules en forme de cône tronqué, qui évoquent les paniers d’osier d’autrefois.",
+  "description": "Une « recuite » italienne : on chauffe une seconde fois le petit-lait qui reste après la fabrication d'un fromage, souvent avec un peu de lait, jusqu'à ce que de fins flocons blancs remontent à la surface. On les recueille et on les égoutte.\n\nFraîche, elle est légère, granuleuse, à peine sucrée. Au lait de brebis, de vache, de chèvre ou de bufflonne, elle sert dans les pâtes farcies, les cannoli siciliens et beaucoup de desserts. On la trouve aussi salée, séchée ou fumée.",
+  "faits": [
+   "Son nom veut dire « recuite » en italien.",
+   "On en fait dans la péninsule italienne depuis l'âge du bronze, comme le montrent des récipients à faire bouillir le lait de cette époque."
+  ],
   "photo": {
    "src": "/photos/ricotta.jpg",
    "w": 1000,
@@ -1364,11 +2070,49 @@
   "debut": 5,
   "fin": 8,
   "lien": "",
-  "description": "Petit fromage de chèvre au lait cru, la Rigotte de Condrieu offre aux connaisseurs ses arômes subtils de noisette, sa robe couleur ivoire.",
+  "description": "Un tout petit chèvre du massif du Pilat, au sud de Lyon : un cylindre de 4 à 5 centimètres, au lait cru et entier.\n\nSa croûte fine, ivoire à bleutée, enveloppe une pâte blanche, fine et fondante, au goût doux et légèrement acidulé. Il s'affine au moins huit jours. Elle se mange fraîche ou plus sèche, plus corsée.",
+  "faits": [
+   "Son nom viendrait des « rigots », les petits ruisseaux qui descendent du Pilat en patois.",
+   "Elle était autrefois faite pour la maison, et on y ajoutait parfois du lait de vache quand il y en avait une à la ferme."
+  ],
   "photo": {
    "src": "/photos/rigotte-de-condrieu.jpg",
    "w": 1600,
    "h": 800
+  }
+ },
+ {
+  "slug": "robiola-di-roccaverano",
+  "nom": "robiola di Roccaverano",
+  "pays": [
+   "Italie"
+  ],
+  "region": "Piémont",
+  "lait": [
+   "chèvre",
+   "vache",
+   "brebis"
+  ],
+  "appellation": "AOP",
+  "annee": "1996",
+  "debut": 3,
+  "fin": 10,
+  "lien": "https://fr.wikipedia.org/wiki/Robiola_di_Roccaverano",
+  "description": "Petit fromage frais des collines des Langhe, au sud du Piémont, fait de lait cru dont au moins la moitié de chèvre, parfois mêlé de vache ou de brebis. Il s'affine quelques jours seulement, ou plusieurs semaines pour une pâte plus ferme.\n\nOn le mange nature, avec un filet d'huile d'olive et du poivre. Il est fabriqué toute l'année, mais il est meilleur du printemps à l'automne, quand les chèvres sont au pré.",
+  "faits": [
+   "Elle doit contenir au moins 50 % de lait de chèvre, de race Roccaverano ou alpine chamoisée.",
+   "Autrefois, on la conservait plongée dans l'huile."
+  ],
+  "photo": {
+   "src": "/photos/robiola-di-roccaverano.jpg",
+   "w": 800,
+   "h": 449,
+   "credit": {
+    "auteur": "Consorzio di tutela formaggio Robiola di Roccaverano",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Robiolaconsorzio.jpg"
+   }
   }
  },
  {
@@ -1377,7 +2121,7 @@
   "pays": [
    "France"
   ],
-  "region": "Lot, Lot-et-Garonne",
+  "region": "Quercy",
   "lait": [
    "chèvre"
   ],
@@ -1386,7 +2130,11 @@
   "debut": 4,
   "fin": 9,
   "lien": "",
-  "description": "Le rocamadour est un fromage français de chèvre au lait cru entier. Il appartient à la famille des cabécous. Il est ou a été aussi appelé « cabécou de Rocamadour ».\nCe fromage au lait cru est produit dans le Quercy et l'appellation « rocamadour » seule est protégée grâce à une AOC depuis 1995. Cette appellation a pour origine la commune de Rocamadour dans le département du Lot.",
+  "description": "Un petit palet de chèvre du Quercy, au lait cru et entier, de la famille des cabécous : 6 centimètres de diamètre, à peine 35 grammes.\n\nAffiné au moins six jours, il a une croûte fine et une pâte crémeuse au goût de beurre et de crème. Plus sec, il devient plus piquant. Il est délicieux chaud, sur une tranche de pain grillé et une salade.",
+  "faits": [
+   "Son nom est écrit dès 1451, dans un acte où ces petits fromages servaient à payer les impôts.",
+   "Il s'appelait autrefois « cabécou de Rocamadour » ; l'appellation n'a gardé que « rocamadour », car les cabécous se font dans tout le Sud-Ouest."
+  ],
   "photo": {
    "src": "/photos/rocamadour.jpg",
    "w": 800,
@@ -1408,7 +2156,12 @@
   "debut": 1,
   "fin": 8,
   "lien": "",
-  "description": "Le roquefort est un fromage à pâte persillée avec un poids moyen de 2,7 kg se présentant sous la forme d'un cylindre de 19 à 20 cm de diamètre. Il est de couleur blanc crème ou ivoire à l'extérieur ; la surface peut suinter légèrement. À l'intérieur, sa couleur ivoire est persillée de moisissures. Leur couleur peut être majoritairement grise, bleue ou verte.",
+  "description": "Le grand bleu de brebis : il est fait avec le lait cru de brebis lacaunes du sud du Massif central, et s'affine obligatoirement dans les caves naturelles du Combalou, à Roquefort-sur-Soulzon.\n\nCes caves, creusées dans les éboulis, sont aérées par des fleurines, des failles qui soufflent un air frais et humide. Sa pâte blanche et crémeuse, persillée de vert-bleu, est salée, puissante, un peu piquante. Il n'a pas de croûte.",
+  "faits": [
+   "C'est le premier fromage français à avoir reçu une appellation d'origine, en 1925.",
+   "En 1411, le roi Charles VI accorda aux habitants de Roquefort le monopole de son affinage.",
+   "La légende raconte qu'un berger, partant à la poursuite d'une jeune fille, oublia son pain et son caillé dans une grotte ; à son retour, la moisissure du pain avait gagné le fromage."
+  ],
   "photo": {
    "src": "/photos/roquefort.jpg",
    "w": 1200,
@@ -1430,7 +2183,11 @@
   "debut": 4,
   "fin": 9,
   "lien": "",
-  "description": "Le saint-félicien est un fromage français du Dauphiné. C'est un proche cousin d'un autre fromage dauphinois, le saint-marcellin. Il doit son nom à la place sur laquelle donnait la boutique du fromager qui en est à l'origine.\n\nIl était à l'origine confectionné avec du lait de chèvre, mais désormais, il est plus souvent confectionné avec du lait de vache. Sa pâte est molle à croûte fleurie et son poids moyen est de 180 grammes.\n\nSa période de dégustation optimale s'étale d'avril à septembre après un affinage de 4 à 6 semaines, mais il est aussi excellent de mars à décembre. Il est plus doux et crémeux que le saint-marcellin.\n\nIl ne faut pas le confondre avec le saint-félicien ardéchois, un fromage de chèvre dit « caillé doux » du village de Saint-Félicien en Ardèche.",
+  "description": "Le grand frère du saint-marcellin : un fromage du Dauphiné et de la région lyonnaise, au lait de vache entier, à croûte fleurie, plus large et plus crémeux, d'environ 180 grammes.\n\nAffiné quatre à six semaines, il devient très coulant. Son goût est doux, lacté, légèrement acidulé.",
+  "faits": [
+   "Il ne faut pas le confondre avec le saint-félicien ardéchois, un fromage de chèvre du village du même nom.",
+   "Le saint-félicien au lait de vache est une marque déposée à Lyon en 1956 par un fromager de Villeurbanne, Marius Boucher."
+  ],
   "photo": {
    "src": "/photos/saint-felicien.jpg",
    "w": 1200,
@@ -1452,11 +2209,48 @@
   "debut": 3,
   "fin": 12,
   "lien": "",
-  "description": "C'est un petit fromage à base de lait de vache, à pâte molle à croûte fleurie, d'un poids moyen de 80 grammes. Sa production est réalisée avec le lait provenant de 274 communes de l'Isère, de la Drôme et de la Savoie.\n\nLa période de consommation idéale du saint-marcellin s'étale d'avril à septembre après un affinage de 4 semaines, mais aussi de mars à décembre. On distingue deux types de consommations :\n\ndans le Dauphiné, il est consommé généralement sec.\nà Lyon, il est consommé peu affiné avec une salade et des croûtons frottés à l'ail, mais développe toute sa typicité quand il est coulant sous une croûte bleue.",
+  "description": "Un petit fromage du Dauphiné, au lait de vache, à croûte fleurie, d'environ 80 grammes. Il vient de la région de Saint-Marcellin, en Isère, et se fait aussi dans la Drôme et en Savoie.\n\nOn le choisit selon son affinage : sec, crémeux ou bleuté. Plus il vieillit, plus il coule ; les Lyonnais l'aiment très fait, à la cuillère, dans sa coupelle de terre cuite.",
+  "faits": [
+   "Selon la légende, le futur Louis XI, sauvé d'un ours par deux bûcherons en 1445, l'aurait découvert en partageant leur repas.",
+   "Jusqu'au XXe siècle, il était souvent fait d'un mélange de lait de chèvre et de vache ; il n'est fait qu'au lait de vache depuis les années 1980."
+  ],
   "photo": {
    "src": "/photos/saint-marcellin.jpg",
    "w": 1198,
    "h": 600
+  }
+ },
+ {
+  "slug": "saint-nectaire",
+  "nom": "saint-nectaire",
+  "pays": [
+   "France"
+  ],
+  "region": "Auvergne",
+  "lait": [
+   "vache"
+  ],
+  "appellation": "AOC",
+  "annee": "1964",
+  "debut": 9,
+  "fin": 11,
+  "lien": "https://www.aop-saintnectaire.com/",
+  "description": "Fromage des monts Dore, entre Puy-de-Dôme et Cantal, fabriqué entre 700 et 1 500 mètres d'altitude. Sa croûte fleurie grise ou orangée cache une pâte souple et crémeuse au léger goût de noisette.\n\nLe saint-nectaire fermier, au lait cru, est fabriqué à la ferme deux fois par jour, juste après la traite ; il faut 13 à 14 litres de lait pour un fromage. Il est à son meilleur à l'automne, quand il est fait du lait des vaches qui ont passé l'été dans les prés.",
+  "faits": [
+   "Jusqu'au XVIIe siècle, on l'appelait « fromage de seigle », car il s'affinait sur de la paille de seigle.",
+   "Sa plaque de caséine est ovale et verte pour le saint-nectaire fermier, carrée pour celui de laiterie.",
+   "C'est la première appellation fromagère fermière de France en volume."
+  ],
+  "photo": {
+   "src": "/photos/saint-nectaire.jpg",
+   "w": 800,
+   "h": 600,
+   "credit": {
+    "auteur": "Homer Ectus",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Saint-Nectaire.jpg"
+   }
   }
  },
  {
@@ -1474,7 +2268,11 @@
   "debut": 4,
   "fin": 8,
   "lien": "",
-  "description": "Mentionné dès 1841 par Balzac, il se reconnaît facilement par la paille de seigle placée historiquement en son centre pour éviter que le fromage ne se casse. Parce qu’il fut longtemps contrefait, les producteurs de Sainte-Maure-de- Touraine gravent désormais au laser le nom de l’Appellation et le numéro d’identification du fabricant fromager sur la paille. Cendré avec du charbon de bois mêlé de sel, il est, selon la durée de l’affinage, proposé moelleux, demi affiné ou affiné.",
+  "description": "Une longue bûche de chèvre de Touraine, au lait cru et entier, d'au moins 250 grammes, roulée dans la cendre de bois.\n\nSous sa croûte grise et bleutée, la pâte blanche est d'abord ferme, puis fondante et légèrement salée, avec un goût de noisette. Une paille de seigle la traverse de part en part : elle tient la bûche et porte le numéro du producteur.",
+  "faits": [
+   "Sa paille de seigle, gravée au nom de l'appellation et du producteur, sert à consolider la bûche et à garantir son origine.",
+   "Une légende attribue sa recette à des femmes sarrasines restées en Touraine après la bataille de Poitiers, en 732. Les chèvres étaient pourtant déjà élevées dans la région bien avant."
+  ],
   "photo": {
    "src": "/photos/sainte-maure-de-touraine.jpg",
    "w": 900,
@@ -1493,10 +2291,14 @@
   ],
   "appellation": "AOC",
   "annee": "1961",
-  "debut": 1,
-  "fin": 12,
+  "debut": 7,
+  "fin": 3,
   "lien": "https://fr.wikipedia.org/wiki/Salers_(fromage)",
-  "description": "Le salers est un fromage au lait cru de vache à pâte pressée non cuite français du département du Cantal. L'appellation « salers » est protégée par les labels AOC depuis 1961 et AOP depuis 2003.\n\nEn 2016, le ministère de la Culture inscrit à l'Inventaire du patrimoine culturel immatériel de la France, le savoir-faire lié à l'obtention du salers\n\nLe fromage appelé aujourd'hui « salers » est la forme ancestrale qui était la norme pour les fourmes produites dans les burons pendant la période d’estive. La fabrication du salers ne peut se faire que pendant la période de mise à l’herbe des vaches entre le 15 avril et le 15 novembre. Pour bénéficier de l'appellation « salers », le lait cru et entier doit être transformé à la ferme tout de suite après la traite et ne peut être refroidi puis réchauffé.",
+  "description": "Le fromage des estives du Cantal : une grande fourme de lait cru de vache, à pâte pressée non cuite, fabriquée à la ferme, juste après la traite, et seulement quand les vaches sont à l'herbe, du 15 avril au 15 novembre.\n\nLe lait est caillé dans la gerle, une cuve en bois qui l'ensemence de ses propres bactéries. Affiné de trois mois à plus d'un an, il a une pâte ferme, au goût puissant et fruité, avec des notes de foin et d'herbe.",
+  "faits": [
+   "Les fourmes faites uniquement avec le lait des vaches de race salers portent la mention « Tradition Salers » et une tête de vache en relief.",
+   "Le lait ne peut être ni refroidi ni réchauffé avant d'être transformé : il est transformé à la ferme juste après chaque traite."
+  ],
   "photo": {
    "src": "/photos/salers.jpg",
    "w": 1500,
@@ -1509,16 +2311,20 @@
   "pays": [
    "Italie"
   ],
-  "region": "Campanie",
+  "region": "sud de l'Italie",
   "lait": [
    "vache"
   ],
-  "appellation": "STG",
-  "annee": "1998",
+  "appellation": "",
+  "annee": "",
   "debut": 1,
   "fin": 12,
   "lien": "",
-  "description": "La scamorza (cousine de la provola) est un fromage d'Italie du sud à pâte filée peu affiné et produit avec du lait entier pasteurisé. \nLa scamorza la plus connue, et apparemment la meilleure, est celle de la Campanie (région de Naples).\nProduite avec du lait de vache ou de bufflonne (notamment en Campanie) et parfois même de brebis (dans les Pouilles), c'est un fromage à pâte filée, comme la mozzarella. Sa forme est ovoïdale resserrée par une corde (désormais remplacée par un ruban en plastique pour des raisons d'hygiène) d'où sa forme en deux parties.",
+  "description": "Un fromage à pâte filée du sud de l'Italie, cousin de la mozzarella, fait avec du lait de vache et parfois de bufflonne.\n\nOn le façonne en poire, étranglée par une ficelle qui sert à le suspendre pour le sécher quelques jours à un mois. Il existe blanc, doux et souple, ou fumé, plus doré et plus parfumé. On le mange souvent grillé, en tranches épaisses.",
+  "faits": [
+   "Son nom viendrait de « capa mozza », la tête coupée, à cause de sa forme étranglée par la ficelle.",
+   "En italien familier, « scamorza » désigne aussi un idiot."
+  ],
   "photo": {
    "src": "/photos/scamorza.jpg",
    "w": 2000,
@@ -1536,15 +2342,51 @@
    "chèvre"
   ],
   "appellation": "AOC",
-  "annee": "1986",
+  "annee": "1975",
   "debut": 4,
   "fin": 8,
   "lien": "",
-  "description": "Fabriqué à partir de lait de chèvre, cru et entier, ce fromage à la forme ronde et tronconique est de tradition fort ancienne. Moulé manuellement, il est ensuite démoulé puis cendré au moyen d’un mélange de charbon de bois et de sel. Proposé à la consommation après une dizaine de jours d’affinage, sa croûte se pigmente de moisissures bleutées au fil des semaines pour offrir à nos papilles des arômes caprins bien développés, dus notamment au foin de la Vallée du Cher consommé par les chèvres.",
+  "description": "Un palet de chèvre du Loir-et-Cher, de l'Indre et du Cher, au lait cru et entier, d'environ 150 grammes, couvert de poudre de charbon de bois.\n\nSa croûte gris-bleu cache une pâte blanche, ferme puis fondante, au goût doux et légèrement noiseté. La croûte, plus forte, se mange aussi.",
+  "faits": [
+   "Il tient son nom de la ville de Selles-sur-Cher, où se trouvait le principal marché pour le collecter et le revendre.",
+   "Sa première mention écrite date de 1887."
+  ],
   "photo": {
    "src": "/photos/selles-sur-cher.jpg",
    "w": 1200,
    "h": 641
+  }
+ },
+ {
+  "slug": "serra-da-estrela",
+  "nom": "serra da Estrela",
+  "pays": [
+   "Portugal"
+  ],
+  "region": "Serra da Estrela",
+  "lait": [
+   "brebis"
+  ],
+  "appellation": "AOP",
+  "annee": "1996",
+  "debut": 12,
+  "fin": 4,
+  "lien": "https://fr.wikipedia.org/wiki/Queijo_Serra_da_Estrela",
+  "description": "Le grand fromage du Portugal, fait dans les montagnes de la Serra da Estrela avec du lait cru de brebis caillé à la fleur de chardon. Jeune, il est amanteigado : si coulant qu'on l'ouvre pour le manger à la cuillère. Affiné, il devient ferme et plus corsé.\n\nSa production est limitée à quelques mois d'automne et d'hiver ; on le trouve surtout de décembre à avril.",
+  "faits": [
+   "Il est caillé avec une infusion de fleurs de chardon, et non avec de la présure animale.",
+   "Le plus jeune, l'amanteigado (« comme du beurre »), est si coulant qu'on l'entoure souvent d'un linge pour retenir sa pâte."
+  ],
+  "photo": {
+   "src": "/photos/serra-da-estrela.jpg",
+   "w": 800,
+   "h": 600,
+   "credit": {
+    "auteur": "Adriao",
+    "licence": "Public domain",
+    "licenceUrl": null,
+    "source": "https://commons.wikimedia.org/wiki/File:Queijo_Serra_da_Estrela.jpg"
+   }
   }
  },
  {
@@ -1562,7 +2404,11 @@
   "debut": 10,
   "fin": 3,
   "lien": "",
-  "description": "Le Stilton Cheese (« fromage de Stilton ») est un fromage anglais\nC’est un fromage à pâte persillée au lait de vache, avec une texture crémeuse mais friable et une saveur relevée. Il se présente sous la forme d'un cylindre de 25 centimètres de haut pour 15 centimètres de large et un poids de 4 à 5 kg.",
+  "description": "Le grand bleu anglais, au lait de vache, fabriqué uniquement dans le Derbyshire, le Leicestershire et le Nottinghamshire. Il existe aussi un stilton blanc, sans bleu.\n\nSes hauts cylindres ne sont pas pressés : le caillé s'égoutte seul, puis on pique le fromage pour faire entrer l'air. Sa pâte crémeuse, veinée de bleu, a un goût riche et puissant. En Angleterre, on le sert à Noël avec un verre de porto.",
+  "faits": [
+   "Il ne peut pas être fabriqué à Stilton : le village, où il était vendu aux voyageurs, est dans le Cambridgeshire, hors de la zone d'appellation.",
+   "En 1724, Daniel Defoe décrivait Stilton comme une ville « célèbre pour son fromage, qu'on appelle notre parmesan anglais »."
+  ],
   "photo": {
    "src": "/photos/stilton.jpg",
    "w": 1024,
@@ -1584,11 +2430,47 @@
   "debut": 7,
   "fin": 10,
   "lien": "",
-  "description": "Le fromage Taleggio tire son nom de la vallée bergamasque de Taleggio, en Italie.\nIl est attesté que le Taleggio est fabriqué depuis le XIème siècle et que le fromage était envoyé dans les grottes de la Valsassina pour y mûrir. La production de ce fromage italien s'est largement répandue dans les régions avoisinantes.\nC'est un fromage de la forme d'un pavé carré pesant entre 1,8 et 2 kilogrammes.\nLe Taleggio est affiné pendant un à deux mois en cave fraîche et humide.\n\nChoix à l'aspect extérieur: mince croûte rosée.\nChoix à l'aspect intérieur: pâte crémeuse de couleur ivoire.\nChoix au toucher: tendre.\nChoix au goût: de doux à fort suivant l'âge.",
+  "description": "Un carré lombard au lait de vache, à pâte molle et croûte lavée, né dans le Val Taleggio, au nord de Bergame. Sa croûte fine, rose orangé, est lavée chaque semaine à l'eau salée.\n\nAffiné six à dix semaines, il sent fort mais a un goût doux, beurré, avec une pointe fruitée. Sa pâte fond très bien.",
+  "faits": [
+   "Il s'affinait autrefois dans les grottes de la Valsassina, où des courants d'air naturels répandaient les moisissures utiles.",
+   "Chaque carré porte le logo du consortium : quatre cercles, dont trois marqués d'un « T »."
+  ],
   "photo": {
    "src": "/photos/taleggio.jpg",
    "w": 1266,
    "h": 640
+  }
+ },
+ {
+  "slug": "tete-de-moine",
+  "nom": "tête de moine",
+  "pays": [
+   "Suisse"
+  ],
+  "region": "Jura bernois",
+  "lait": [
+   "vache"
+  ],
+  "appellation": "AOP",
+  "annee": "2001",
+  "debut": 9,
+  "fin": 12,
+  "lien": "https://fr.wikipedia.org/wiki/T%C3%AAte_de_moine",
+  "description": "Fromage du Jura suisse, né à l'abbaye de Bellelay, fait au lait cru et entier de vache. On ne le coupe pas : on le racle avec une girolle, qui en fait de fines rosettes.\n\nMoins de dix fromageries le fabriquent aujourd'hui. Sa meilleure période va de septembre à décembre.",
+  "faits": [
+   "Les moines de l'abbaye de Bellelay le fabriquaient déjà en 1192 ; il servait à payer les loyers et les redevances.",
+   "On ne le coupe pas, on le racle en fines rosettes avec la girolle, un outil inventé en 1982 par Nicolas Crevoisier."
+  ],
+  "photo": {
+   "src": "/photos/tete-de-moine.jpg",
+   "w": 800,
+   "h": 800,
+   "credit": {
+    "auteur": "Mike Lehmann, Mike Switzerland 09:38, 12 November 2006 (UTC)",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Girolle_7910.jpg"
+   }
   }
  },
  {
@@ -1606,11 +2488,47 @@
   "debut": 5,
   "fin": 8,
   "lien": "",
-  "description": "Tome des Bauges est une appellation d'origine fromagère française à base de lait de vache, qui doit son nom au massif des Bauges.\nIl s'agit d'un fromage au lait cru entier ou partiellement écrémé, à pâte pressée non cuite, salée et à croûte fleurie de 18 à 20 cm de diamètre et 3 à 5 cm de hauteur pour 1,1 à 1,4 kg. Sa pâte est de couleur ivoire à jaune et sa croûte grise. La production laitière, la fabrication et l'affinage des fromages doivent être effectués dans l'aire géographique qui s'étend sur 54 communes des départements de Savoie et Haute-Savoie.",
+  "description": "Une tome du massif des Bauges, en Savoie, au lait cru de vache entier ou un peu écrémé, à pâte pressée non cuite, d'un peu plus d'un kilo.\n\nSa croûte grise, épaisse, cache une pâte souple, ivoire, au goût de lait, de noisette et de cave. On la mange telle quelle ou fondue.",
+  "faits": [
+   "Son nom garde l'orthographe ancienne « tome », avec un seul m, pour se distinguer des autres tommes de Savoie.",
+   "En 1807, on la décrivait comme le fromage « que consomme le paysan » et dont « on ne saurait se passer à chaque repas »."
+  ],
   "photo": {
    "src": "/photos/tome-des-bauges.jpg",
    "w": 1097,
    "h": 550
+  }
+ },
+ {
+  "slug": "tomme-crayeuse",
+  "nom": "tomme crayeuse",
+  "pays": [
+   "France"
+  ],
+  "region": "Savoie",
+  "lait": [
+   "vache"
+  ],
+  "appellation": "",
+  "annee": "",
+  "debut": 10,
+  "fin": 3,
+  "lien": "https://fr.wikipedia.org/wiki/Tomme_crayeuse",
+  "description": "Une tomme de Savoie au lait de vache, à pâte pressée non cuite, affinée au moins deux mois. Elle doit son nom à sa pâte à double texture : crayeuse et friable au cœur, fondante sous la croûte.\n\nSa croûte brun-gris, veloutée, se couvre de moisissures jaunes et blanches. Son goût évoque la cave, le champignon, avec une pointe citronnée.",
+  "faits": [
+   "Elle a été créée en 1997 par l'affineur savoyard Max Schmidhauser.",
+   "Elle s'affine plus longtemps que les autres tommes de Savoie, ce qui lui donne sa pâte dense et son mordant."
+  ],
+  "photo": {
+   "src": "/photos/tomme-crayeuse.jpg",
+   "w": 800,
+   "h": 532,
+   "credit": {
+    "auteur": "Frédérique Voisin-Demery from Grenoble, France",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tomme_crayeuse.jpg"
+   }
   }
  },
  {
@@ -1628,7 +2546,11 @@
   "debut": 5,
   "fin": 10,
   "lien": "",
-  "description": "La Tomme des Pyrénées est un fromage à pâte pressée ou semi dure, non cuite au lait de vache pasteurisé (IGP obtenue en 1996). Sa pâte est souple et sa texture fondante. Sa couleur variant du blanc au jaune, en passant par l’ivoire, est uniforme. Pâte souple et fondante, onctueuse et homogène. Goût acidulé pour la Tomme noire, goût plus robuste pour la Tomme dorée, richesse aromatique et caractère typé, teinté d’une légère amertume, sans excès de sel pour les Tommes aux laits crus.",
+  "description": "Une tomme de montagne au lait de brebis, faite dans les vallées des Pyrénées, du Béarn au Pays basque. Chaque vallée, presque chaque ferme, a sa façon de la faire.\n\nSa pâte pressée, ivoire, est souple et un peu grasse, avec un goût de lait de brebis, de noisette et parfois de fumé. Affinée plusieurs mois, elle devient plus ferme et plus piquante.",
+  "faits": [
+   "La tomme des Pyrénées IGP, protégée depuis 2021, est faite au lait de vache, de chèvre ou de mélange : la tomme de brebis pure n'en fait pas partie.",
+   "Au XIXe siècle, on faisait tant de fromage dans les Pyrénées que les villes manquaient de lait : l'administration y créa des fruitières sur le modèle du Jura."
+  ],
   "photo": {
    "src": "/photos/tomme-de-brebis-des-pyrenees.jpg",
    "w": 1605,
@@ -1650,11 +2572,111 @@
   "debut": 8,
   "fin": 2,
   "lien": "",
-  "description": "La tomme de savoie est un fromage à pâte pressée non cuite, au lait cru de vache. Il est de forme cylindrique et régulière, légèrement détalonnée, c’est-à-dire avec un talon très légèrement arrondi. Blanche à jaune, sa pâte présente de petites ouvertures de moulage. D’une texture à la fois souple et ferme, la véritable Tomme de Savoie n'est jamais coulante ni crayeuse.Son goût franc, aux arômes délicats et subtils, varie selon le temps d'affinage et les saisons. Plus la Tomme de Savoie est jeune, plus son goût est doux, avec une pointe d'acidité, plus elle est affinée, plus son goût est typé, puissant, rustique (avec parfois une légère pointe d'amertume).",
+  "description": "Le fromage de tous les jours en Savoie : une tomme au lait de vache, souvent en partie écrémé, à pâte pressée non cuite, d'environ 1,5 kilo.\n\nSa croûte grise, épaisse, tachée de moisissures jaunes ou rouges, enveloppe une pâte souple, blanche à jaune pâle, au goût de noisette et de cave. Celle d'été, faite avec le lait des vaches à l'herbe, est plus parfumée.",
+  "faits": [
+   "À l'origine, on la faisait avec le lait écrémé qui restait après avoir fait le beurre.",
+   "Une pastille verte signale la tomme fermière, une pastille rouge celle de fruitière."
+  ],
   "photo": {
    "src": "/photos/tomme-de-savoie.jpg",
    "w": 1500,
    "h": 750
+  }
+ },
+ {
+  "slug": "torta-del-casar",
+  "nom": "torta del Casar",
+  "pays": [
+   "Espagne"
+  ],
+  "region": "Estrémadure",
+  "lait": [
+   "brebis"
+  ],
+  "appellation": "AOP",
+  "annee": "2003",
+  "debut": 12,
+  "fin": 6,
+  "lien": "https://fr.wikipedia.org/wiki/Torta_del_Casar",
+  "description": "Fromage de brebis au lait cru de la province de Cáceres, caillé avec du chardon plutôt qu'avec de la présure. Sa croûte reste ferme mais sa pâte devient si coulante qu'on ouvre le dessus pour la manger à la cuillère.\n\nIl est fabriqué avec le lait de l'hiver et du printemps, et se déguste surtout de décembre à juin.",
+  "faits": [
+   "Il faut le lait d'une vingtaine de brebis mérinos pour un seul fromage d'un kilo.",
+   "On l'ouvre en découpant le dessus de la croûte comme un couvercle, puis on puise la pâte coulante à la cuillère."
+  ],
+  "photo": {
+   "src": "/photos/torta-del-casar.jpg",
+   "w": 800,
+   "h": 566,
+   "credit": {
+    "auteur": "MollySVH",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Torta_del_Casar.jpg"
+   }
+  }
+ },
+ {
+  "slug": "vacherin-fribourgeois",
+  "nom": "vacherin fribourgeois",
+  "pays": [
+   "Suisse"
+  ],
+  "region": "Fribourg",
+  "lait": [
+   "vache"
+  ],
+  "appellation": "AOP",
+  "annee": "2005",
+  "debut": 10,
+  "fin": 3,
+  "lien": "https://fr.wikipedia.org/wiki/Vacherin_fribourgeois",
+  "description": "Fromage du canton de Fribourg à pâte pressée non cuite, au lait de vache cru ou thermisé. Souple et fondant, il est l'ingrédient de la fondue moitié-moitié, avec le gruyère.\n\nIl s'affine de neuf semaines à plus de six mois. Sa meilleure période de dégustation va d'octobre à mars.",
+  "faits": [
+   "C'est l'un des deux fromages de la fondue moitié-moitié fribourgeoise, avec le gruyère.",
+   "Il en existe plusieurs sortes : classique, extra, rustique, d'alpage, de montagne et bio."
+  ],
+  "photo": {
+   "src": "/photos/vacherin-fribourgeois.jpg",
+   "w": 800,
+   "h": 800,
+   "credit": {
+    "auteur": "Tombat24",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rolf_Beeler_Vacherin_Fribourgeois.png"
+   }
+  }
+ },
+ {
+  "slug": "vacherin-mont-d-or",
+  "nom": "vacherin Mont-d'Or",
+  "pays": [
+   "Suisse"
+  ],
+  "region": "Vaud",
+  "lait": [
+   "vache"
+  ],
+  "appellation": "AOP",
+  "annee": "2003",
+  "debut": 9,
+  "fin": 4,
+  "lien": "https://fr.wikipedia.org/wiki/Mont_d'Or_(fromage)",
+  "description": "Le cousin vaudois du mont-d'or français, fait de l'autre côté du massif du Jura avec du lait de vache thermisé. Cerclé d'écorce d'épicéa et vendu dans sa boîte en bois, il s'affine au moins 17 jours sur des planches d'épicéa.\n\nIl n'est fabriqué que de la mi-août à la mi-mars, quand les vaches donnent moins de lait, et se vend de septembre au printemps. On le mange à la cuillère, ou chaud au four.",
+  "faits": [
+   "Il fut primé aux expositions nationales suisses de 1876, 1880 et 1883 sous le nom de vacherin de la vallée de Joux.",
+   "Sa sangle d'épicéa doit venir de la région de production, ce qui n'est pas obligatoire pour le mont-d'or français."
+  ],
+  "photo": {
+   "src": "/photos/vacherin-mont-d-or.jpg",
+   "w": 800,
+   "h": 600,
+   "credit": {
+    "auteur": "ja:User:NEON / User:NEON_ja",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Vacherin_Mont_d%27Or.jpg"
+   }
   }
  },
  {
@@ -1672,11 +2694,48 @@
   "debut": 6,
   "fin": 9,
   "lien": "",
-  "description": "Fabriqué à partir de lait cru et entier, le Valençay, une fois démoulé, est salé et cendré au charbon de bois Il peut être dégusté à compter du 11ème jour Frais, sa pâte est fine et onctueuse. Plus longuement affinée, elle devient légèrement cassante.",
+  "description": "Une pyramide tronquée de chèvre du Berry, au lait cru et entier, d'environ 220 grammes, couverte de cendre de charbon végétal.\n\nSous sa croûte gris-bleu, la pâte blanche est fine et fondante. Jeune, elle a un goût frais et citronné ; plus affinée, elle prend des arômes de noisette, de sous-bois et de chèvre.",
+  "faits": [
+   "La légende veut que Napoléon, de retour de sa campagne d'Égypte, ait tranché d'un coup de sabre la pointe de la pyramide au château de Valençay. Aucune source ne l'atteste.",
+   "Valençay a été la première région de France avec une AOC à la fois pour son fromage et pour son vin.",
+   "La cendre servait autrefois à conserver le fromage ; on la faisait avec du charbon de sarments de vigne."
+  ],
   "photo": {
    "src": "/photos/valencay.jpg",
    "w": 1200,
    "h": 600
+  }
+ },
+ {
+  "slug": "wensleydale",
+  "nom": "wensleydale",
+  "pays": [
+   "Royaume-Uni"
+  ],
+  "region": "Yorkshire",
+  "lait": [
+   "vache"
+  ],
+  "appellation": "IGP",
+  "annee": "2013",
+  "debut": 1,
+  "fin": 12,
+  "lien": "https://fr.wikipedia.org/wiki/Wensleydale_(fromage)",
+  "description": "Fromage de la vallée du Wensleydale, dans le Yorkshire, dont la recette fut apportée par des moines cisterciens venus de France. Friable, frais et légèrement acidulé, il a un goût de miel.\n\nLes Anglais le mangent volontiers avec un gâteau aux fruits ou une tarte aux pommes. Le « Yorkshire Wensleydale » est protégé depuis 2013 et se trouve toute l'année.",
+  "faits": [
+   "Il a été inventé par des moines cisterciens venus de France, avec du lait de brebis ; le lait de vache l'a remplacé à partir du XIVe siècle.",
+   "Il doit une partie de son succès à Wallace et Gromit : c'est le fromage préféré de Wallace."
+  ],
+  "photo": {
+   "src": "/photos/wensleydale.jpg",
+   "w": 800,
+   "h": 600,
+   "credit": {
+    "auteur": "Jon Sullivan",
+    "licence": "Public domain",
+    "licenceUrl": null,
+    "source": "https://commons.wikimedia.org/wiki/File:Wensleydale_cheese_2.jpg"
+   }
   }
  }
 ]

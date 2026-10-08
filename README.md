@@ -17,3 +17,5 @@ Funky Fork's web app. Netlify serves `site/` (see `netlify.toml`).
 
 A cheese's `slug` is its URL (`/fromage/<slug>`); `debut` and `fin` are the
 first and last months of its season (1–12), and can run over the new year.
+A photo from Wikimedia Commons carries a `credit` (author, licence, source),
+shown under the photo as its licence requires.
